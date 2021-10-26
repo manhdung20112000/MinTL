@@ -75,7 +75,7 @@ class Vocab(object):
 
     def encode(self, word):
         """ customize for damd script """
-        return self.tokenizer.encode(word)[0]
+        return self.tokenizer.encode(word, add_special_tokens=False)
 
     def sentence_encode(self, word_list):
         """ customize for damd script """
@@ -302,35 +302,35 @@ class MultiWozReader(_ReaderBase):
     def _get_encoded_data(self, fn, dial):
         encoded_dial = []
         dial_context = []
-        delete_op = self.vocab.tokenizer.encode("<None>")  # delete operation
+        delete_op = self.vocab.encode("<None>")  # delete operation
         prev_constraint_dict = {}
         for idx, t in enumerate(dial['log']):
             enc = {}
             enc['dial_id'] = fn
-            # enc['user'] = self.vocab.tokenizer.encode(t['user']) + self.vocab.tokenizer.encode(['<eos_u>'])
-            dial_context.append(self.vocab.tokenizer.encode(t['user']) + self.vocab.tokenizer.encode('<eos_u>'))
+            # enc['user'] = self.vocab.encode(t['user']) + self.vocab.encode(['<eos_u>'])
+            dial_context.append(self.vocab.encode(t['user']) + self.vocab.encode('<eos_u>'))
             enc['user'] = list(
                 chain(*dial_context[-self.args.context_window:]))  # here we use user to represent dialogue history
-            enc['usdx'] = self.vocab.tokenizer.encode(t['user_delex']) + self.vocab.tokenizer.encode('<eos_u>')
-            enc['resp'] = self.vocab.tokenizer.encode(t['resp']) + self.vocab.tokenizer.encode('<eos_r>')
-            enc['resp_nodelex'] = self.vocab.tokenizer.encode(t['resp_nodelex']) + self.vocab.tokenizer.encode(
+            enc['usdx'] = self.vocab.encode(t['user_delex']) + self.vocab.encode('<eos_u>')
+            enc['resp'] = self.vocab.encode(t['resp']) + self.vocab.encode('<eos_r>')
+            enc['resp_nodelex'] = self.vocab.encode(t['resp_nodelex']) + self.vocab.encode(
                 '<eos_r>')
-            enc['bspn'] = self.vocab.tokenizer.encode(t['constraint']) + self.vocab.tokenizer.encode('<eos_b>')
+            enc['bspn'] = self.vocab.encode(t['constraint']) + self.vocab.encode('<eos_b>')
             constraint_dict = self.bspan_to_constraint_dict(t['constraint'])
             update_bspn = self.check_update(prev_constraint_dict, constraint_dict)
-            enc['update_bspn'] = self.vocab.tokenizer.encode(update_bspn)
+            enc['update_bspn'] = self.vocab.encode(update_bspn)
             # 'bspn': '[hotel] area north type guest house stay 5 day tuesday people 5 [train] leave sunday destination london liverpool street departure cambridge',
-            enc['bsdx'] = self.vocab.tokenizer.encode(t['cons_delex']) + self.vocab.tokenizer.encode('<eos_b>')
-            enc['aspn'] = self.vocab.tokenizer.encode(t['sys_act']) + self.vocab.tokenizer.encode('<eos_a>')
-            enc['dspn'] = self.vocab.tokenizer.encode(t['turn_domain']) + self.vocab.tokenizer.encode('<eos_d>')
+            enc['bsdx'] = self.vocab.encode(t['cons_delex']) + self.vocab.encode('<eos_b>')
+            enc['aspn'] = self.vocab.encode(t['sys_act']) + self.vocab.encode('<eos_a>')
+            enc['dspn'] = self.vocab.encode(t['turn_domain']) + self.vocab.encode('<eos_d>')
             enc['pointer'] = [int(i) for i in t['pointer'].split(',')]
-            # print(self.vocab.tokenizer.encode("[db_state0]"))
-            # print(self.vocab.tokenizer.encode("[db_state4]"))
+            # print(self.vocab.encode("[db_state0]"))
+            # print(self.vocab.encode("[db_state4]"))
             if sum(enc['pointer'][:-2]) == 0:
-                enc['input_pointer'] = self.vocab.tokenizer.encode("[db_state0]")
+                enc['input_pointer'] = self.vocab.encode("[db_state0]")
             else:
                 enc['input_pointer'] = [
-                    self.vocab.tokenizer.encode("[db_state0]")[0] + enc['pointer'][:-2].index(1) + 1]
+                    self.vocab.encode("[db_state0]")[0] + enc['pointer'][:-2].index(1) + 1]
             if sum(enc['pointer'][-2:]) > 0:
                 enc['input_pointer'][0] += (enc['pointer'][-2:].index(
                     1) + 1) * 5  # 5 means index(db_state0+bookfail)-index(db_state0)=5
@@ -460,13 +460,13 @@ class MultiWozReader(_ReaderBase):
         output2: dialogue response ['resp']
         """
         inputs = {}
-        pad_token = self.vocab.tokenizer.encode("<pad>")[0]
+        pad_token = self.vocab.encode("<pad>")[0]
         batch_size = len(batch['user'])
         # input: previous dialogue state + dialogue history
         input_ids = []
         if first_turn:
             for i in range(batch_size):
-                input_ids.append(self.vocab.tokenizer.encode('<eos_b>') + batch['user'][i])
+                input_ids.append(self.vocab.encode('<eos_b>') + batch['user'][i])
         else:
             for i in range(batch_size):
                 input_ids.append(prev['bspn'][i] + batch['user'][i])
@@ -541,7 +541,7 @@ class MultiWozReader(_ReaderBase):
                     _ = constraint_dict[domain].pop(slot, None)
                 else:
                     constraint_dict[domain][slot] = value
-        updated_bspn = self.vocab.tokenizer.encode(self.constraint_dict_to_bspan(constraint_dict))
+        updated_bspn = self.vocab.encode(self.constraint_dict_to_bspan(constraint_dict))
         return updated_bspn
 
     def wrap_result(self, result_dict, eos_syntax=None):

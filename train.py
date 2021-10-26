@@ -129,10 +129,13 @@ class Model(object):
                                                                                    attention_mask=inputs["masks"],
                                                                                    turn_domain=inputs["turn_domain"],
                                                                                    db=inputs["input_pointer"])
+
+
+                    if (iter_num + 1) % cfg.report_interval == 0:
                         print(self.tokenizer.decode(dst_outputs[0]))
                         print(self.tokenizer.decode(resp_outputs[0]))
-
-                    # if (iter_num + 1) % cfg.report_interval == 0:
+                        print(self.tokenizer.decode(inputs["state_update"].numpy()[0]))
+                        print(self.tokenizer.decode(inputs["response"].numpy()[0]))
                     #     logging.info(
                     #         'iter:{} [total|bspn|resp] loss: {:.2f} {:.2f} {:.2f} time: {:.1f} turn:{} '.format(
                     #             iter_num + 1,
