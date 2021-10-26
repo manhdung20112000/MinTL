@@ -291,6 +291,10 @@ class MultiWozReader(_ReaderBase):
                     self.train.append(self._get_encoded_data(fn, dial))
                     train_count += 1
 
+        self.train = self.train[:100]
+        self.dev = self.dev[:100]
+        self.test = self.test[:100]
+
         random.shuffle(self.train)
         random.shuffle(self.dev)
         random.shuffle(self.test)
