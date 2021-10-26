@@ -1,5 +1,6 @@
 import logging, time, os
 
+
 class _Config:
     def __init__(self):
         self._multiwoz_damd_init()
@@ -7,23 +8,24 @@ class _Config:
     def _multiwoz_damd_init(self):
         self.vocab_path_train = os.path.join(os.path.dirname(__file__), 'data/multi-woz-processed/vocab')
         self.vocab_path_eval = None
-        self.data_path = os.path.join(os.path.dirname(__file__),'data/multi-woz-processed/')
+        self.data_path = os.path.join(os.path.dirname(__file__), 'data/multi-woz-processed/')
         self.data_file = 'data_for_damd.json'
-        self.dev_list = os.path.join(os.path.dirname(__file__),'data/multi-woz/valListFile.json')
-        self.test_list = os.path.join(os.path.dirname(__file__),'data/multi-woz/testListFile.json')
+        self.dev_list = os.path.join(os.path.dirname(__file__), 'data/multi-woz/valListFile.json')
+        self.test_list = os.path.join(os.path.dirname(__file__), 'data/multi-woz/testListFile.json')
         self.dbs = {
-            'attraction': os.path.join(os.path.dirname(__file__),'db/attraction_db_processed.json'),
-            'hospital': os.path.join(os.path.dirname(__file__),'db/hospital_db_processed.json'),
-            'hotel': os.path.join(os.path.dirname(__file__),'db/hotel_db_processed.json'),
-            'police': os.path.join(os.path.dirname(__file__),'db/police_db_processed.json'),
+            'attraction': os.path.join(os.path.dirname(__file__), 'db/attraction_db_processed.json'),
+            'hospital': os.path.join(os.path.dirname(__file__), 'db/hospital_db_processed.json'),
+            'hotel': os.path.join(os.path.dirname(__file__), 'db/hotel_db_processed.json'),
+            'police': os.path.join(os.path.dirname(__file__), 'db/police_db_processed.json'),
             'restaurant': os.path.join(os.path.dirname(__file__), 'db/restaurant_db_processed.json'),
-            'taxi': os.path.join(os.path.dirname(__file__),'db/taxi_db_processed.json'),
-            'train': os.path.join(os.path.dirname(__file__),'db/train_db_processed.json'),
+            'taxi': os.path.join(os.path.dirname(__file__), 'db/taxi_db_processed.json'),
+            'train': os.path.join(os.path.dirname(__file__), 'db/train_db_processed.json'),
         }
-        self.glove_path = os.path.join(os.path.dirname(__file__),'data/glove/glove.6B.50d.txt')
-        self.domain_file_path = os.path.join(os.path.dirname(__file__),'data/multi-woz-processed/domain_files.json')
-        self.slot_value_set_path = os.path.join(os.path.dirname(__file__),'db/value_set_processed.json')
-        self.multi_acts_path = os.path.join(os.path.dirname(__file__),'data/multi-woz-processed/multi_act_mapping_train.json')
+        self.glove_path = os.path.join(os.path.dirname(__file__), 'data/glove/glove.6B.50d.txt')
+        self.domain_file_path = os.path.join(os.path.dirname(__file__), 'data/multi-woz-processed/domain_files.json')
+        self.slot_value_set_path = os.path.join(os.path.dirname(__file__), 'db/value_set_processed.json')
+        self.multi_acts_path = os.path.join(os.path.dirname(__file__),
+                                            'data/multi-woz-processed/multi_act_mapping_train.json')
         self.exp_path = 'to be generated'
         self.log_time = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())
 
@@ -44,7 +46,7 @@ class _Config:
         self.vocab_size = 3000
         self.embed_size = 50
         self.hidden_size = 100
-        self.pointer_dim = 6 # fixed
+        self.pointer_dim = 6  # fixed
         self.enc_layer_num = 1
         self.dec_layer_num = 1
         self.dropout = 0
@@ -56,12 +58,12 @@ class _Config:
         self.enable_aspn = False
         self.use_pvaspn = False
         self.enable_bspn = True
-        self.bspn_mode = 'bspn' # 'bspn' or 'bsdx'
-        self.enable_dspn = False # removed
+        self.bspn_mode = 'bspn'  # 'bspn' or 'bsdx'
+        self.enable_dspn = False  # removed
         self.enable_dst = True
 
         # training settings
-        self.lr = 0.005
+        self.lr = 1e-3
         self.label_smoothing = .0
         self.lr_decay = 0.5
         self.batch_size = 128
@@ -74,7 +76,7 @@ class _Config:
         self.valid_loss = 'score'
 
         # evaluation settings
-        self.eval_load_path ='experiments/all_multi_acts_sample3_sd777_lr0.005_bs80_sp5_dc3'
+        self.eval_load_path = 'experiments/all_multi_acts_sample3_sd777_lr0.005_bs80_sp5_dc3'
         self.eval_per_domain = False
         self.use_true_pv_resp = True
         self.use_true_prev_bspn = False
@@ -89,10 +91,10 @@ class _Config:
         self.limit_aspn_vocab = False
         self.same_eval_as_cambridge = True
         self.same_eval_act_f1_as_hdsa = False
-        self.aspn_decode_mode = 'greedy'  #beam, greedy, nucleur_sampling, topk_sampling
+        self.aspn_decode_mode = 'greedy'  # beam, greedy, nucleur_sampling, topk_sampling
         self.beam_width = 5
         self.nbest = 5
-        self.beam_diverse_param=0.2
+        self.beam_diverse_param = 0.2
         self.act_selection_scheme = 'high_test_act_f1'
         self.topk_num = 1
         self.nucleur_p = 0.
@@ -100,17 +102,18 @@ class _Config:
 
     def __str__(self):
         s = ''
-        for k,v in self.__dict__.items():
-            s += '{} : {}\n'.format(k,v)
+        for k, v in self.__dict__.items():
+            s += '{} : {}\n'.format(k, v)
         return s
-
 
     def _init_logging_handler(self, mode):
         stderr_handler = logging.StreamHandler()
         if not os.path.exists('./log'):
             os.mkdir('./log')
         if self.save_log and self.mode == 'train':
-            file_handler = logging.FileHandler('./log/log_{}_{}_{}_{}_sd{}.txt'.format(self.log_time, mode, '-'.join(self.exp_domains), self.exp_no, self.seed))
+            file_handler = logging.FileHandler(
+                './log/log_{}_{}_{}_{}_sd{}.txt'.format(self.log_time, mode, '-'.join(self.exp_domains), self.exp_no,
+                                                        self.seed))
             logging.basicConfig(handlers=[stderr_handler, file_handler])
         elif self.mode == 'test':
             eval_log_path = os.path.join(self.eval_load_path, 'eval_log.json')
@@ -123,5 +126,5 @@ class _Config:
         logger = logging.getLogger()
         logger.setLevel(logging.INFO)
 
-global_config = _Config()
 
+global_config = _Config()

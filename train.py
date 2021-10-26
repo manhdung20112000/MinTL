@@ -130,6 +130,15 @@ class Model(object):
                             log_dst / (log_cnt + 1e-8), log_resp / (log_cnt + 1e-8),
                             time.time() - btm,
                             turn_num + 1))
+                    dst_outputs, resp_outputs = self.model.inference_sequicity(tokenizer=self.tokenizer,
+                                                                               reader=self.reader, prev=py_prev,
+                                                                               input_ids=inputs['input_ids'],
+                                                                               attention_mask=inputs["masks"],
+                                                                               turn_domain=inputs["turn_domain"],
+                                                                               db=inputs["input_pointer"])
+                    print(self.tokenizer.decode(dst_outputs[0]))
+                    print(self.tokenizer.decode(resp_outputs[0]))
+
             epoch_sup_loss = log_loss / (log_cnt + 1e-8)
             do_test = False
             valid_loss = self.validate(do_test=do_test)
