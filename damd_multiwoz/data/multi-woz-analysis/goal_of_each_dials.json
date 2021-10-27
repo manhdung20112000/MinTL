@@ -1,0 +1,2794 @@
+{
+  "sng01856": {
+    "hotel": {
+      "info": {
+        "type": "hotel",
+        "parking": "yes",
+        "pricerange": "cheap",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "stay": "2",
+        "day": "tuesday",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {
+        "stay": "3"
+      }
+    }
+  },
+  "sng0129": {
+    "police": {
+      "info": {},
+      "reqt": [
+        "postcode",
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul1635": {
+    "hotel": {
+      "info": {
+        "area": "east",
+        "parking": "yes",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "3",
+        "day": "monday",
+        "invalid": false,
+        "stay": "4"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "bishops stortford",
+        "day": "friday",
+        "arriveby": "19:45",
+        "departure": "cambridge"
+      },
+      "reqt": [
+        "duration",
+        "leaveat",
+        "price"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul2168": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "pricerange": "cheap",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {
+        "parking": "no",
+        "pricerange": "cheap",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "book": {
+        "stay": "5",
+        "day": "wednesday",
+        "invalid": false,
+        "people": "5"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "wednesday",
+        "arriveby": "20:45",
+        "departure": "birmingham new street"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "5"
+      },
+      "fail_book": {}
+    }
+  },
+  "sng0073": {
+    "taxi": {
+      "info": {
+        "leaveat": "17:15",
+        "destination": "pizza hut fen ditton",
+        "departure": "saint john's college"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng01445": {
+    "police": {
+      "info": {},
+      "reqt": [
+        "address",
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul2105": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "type": "guesthouse",
+        "internet": "yes",
+        "area": "centre"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {
+        "parking": "yes",
+        "type": "guesthouse",
+        "internet": "no",
+        "area": "east"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "wednesday",
+        "arriveby": "11:30",
+        "departure": "ely"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "8"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul1690": {
+    "hotel": {
+      "info": {
+        "type": "guesthouse",
+        "pricerange": "moderate",
+        "stars": "4",
+        "area": "north"
+      },
+      "fail_info": {
+        "type": "hotel",
+        "pricerange": "moderate",
+        "stars": "4",
+        "area": "north"
+      },
+      "book": {
+        "stay": "2",
+        "day": "monday",
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "21:15",
+        "destination": "cambridge",
+        "day": "monday",
+        "departure": "norwich"
+      },
+      "reqt": [
+        "arriveby",
+        "duration",
+        "price"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul2395": {
+    "attraction": {
+      "info": {
+        "area": "centre"
+      },
+      "reqt": [
+        "entrance fee",
+        "type",
+        "address"
+      ],
+      "fail_info": {
+        "area": "east"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "turkish",
+        "pricerange": "expensive",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone",
+        "postcode",
+        "address"
+      ],
+      "fail_info": {
+        "food": "caribbean",
+        "pricerange": "expensive",
+        "area": "centre"
+      }
+    }
+  },
+  "sng0190": {
+    "hospital": {
+      "info": {},
+      "reqt": [
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul1170": {
+    "attraction": {
+      "info": {
+        "type": "museum",
+        "area": "centre"
+      },
+      "reqt": [
+        "address",
+        "postcode",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "12:45",
+        "destination": "peterborough",
+        "day": "wednesday",
+        "departure": "cambridge"
+      },
+      "reqt": [
+        "trainid",
+        "arriveby",
+        "price"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng01741": {
+    "hospital": {
+      "info": {
+        "department": "paediatric clinic"
+      },
+      "reqt": [
+        "address",
+        "postcode",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul4899": {
+    "attraction": {
+      "info": {
+        "type": "entertainment"
+      },
+      "reqt": [
+        "phone",
+        "postcode",
+        "address"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "indian",
+        "pricerange": "expensive",
+        "area": "south"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul2261": {
+    "hotel": {
+      "info": {
+        "name": "city centre north b and b"
+      },
+      "fail_info": {
+        "name": "finches bed and breakfast"
+      },
+      "book": {
+        "pre_invalid": true,
+        "stay": "2",
+        "day": "saturday",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {
+        "stay": "4"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "saturday",
+        "arriveby": "14:45",
+        "departure": "bishops stortford"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "6"
+      },
+      "fail_book": {}
+    }
+  },
+  "ssng0348": {
+    "hotel": {
+      "info": {
+        "area": "north",
+        "type": "guesthouse",
+        "parking": "yes"
+      },
+      "restaurant": false,
+      "fail_info": {
+        "area": "north",
+        "type": "guesthouse",
+        "parking": "yes"
+      },
+      "hotel": "arbury lodge guesthouse",
+      "book": {
+        "pre_invalid": true,
+        "people": "3",
+        "day": "thursday",
+        "invalid": false,
+        "stay": "2"
+      },
+      "fail_book": {
+        "day": "wednesday"
+      }
+    }
+  },
+  "mul0784": {
+    "hotel": {
+      "info": {
+        "type": "guesthouse",
+        "parking": "yes",
+        "pricerange": "cheap",
+        "area": "north"
+      },
+      "reqt": [
+        "postcode",
+        "internet"
+      ],
+      "fail_info": {
+        "type": "hotel",
+        "parking": "yes",
+        "pricerange": "cheap",
+        "area": "north"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "monday",
+        "arriveby": "08:15",
+        "departure": "bishops stortford"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "2"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul0886": {
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "centre"
+      },
+      "reqt": [
+        "postcode",
+        "entrance fee",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "indian",
+        "area": "centre"
+      },
+      "reqt": [
+        "postcode",
+        "pricerange",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul2512": {
+    "taxi": {
+      "info": {
+        "leaveat": "02:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "expensive",
+        "type": "hotel",
+        "stars": "2",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "friday",
+        "invalid": true,
+        "stay": "5"
+      }
+    },
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone",
+        "address",
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng0548": {
+    "restaurant": {
+      "info": {
+        "name": "pizza hut city centre"
+      },
+      "fail_info": {
+        "name": "la tasca"
+      },
+      "book": {
+        "time": "19:45",
+        "day": "thursday",
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul1474": {
+    "train": {
+      "info": {
+        "destination": "norwich",
+        "day": "thursday",
+        "arriveby": "13:45",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "6"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "expensive",
+        "area": "centre"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul4372": {
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "pricerange": "expensive",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "3",
+        "day": "wednesday",
+        "invalid": true,
+        "stay": "3"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "expensive",
+        "area": "south"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "3",
+        "day": "wednesday",
+        "invalid": false,
+        "time": "13:45"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul4047": {
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "friday",
+        "arriveby": "08:15",
+        "departure": "peterborough"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "1"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "caffe uno"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "1",
+        "day": "friday",
+        "invalid": false,
+        "time": "16:15"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul1181": {
+    "attraction": {
+      "info": {
+        "type": "mutliple sports",
+        "area": "east"
+      },
+      "reqt": [
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "18:45",
+        "destination": "cambridge",
+        "day": "wednesday",
+        "departure": "norwich"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "1"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul0287": {
+    "hotel": {
+      "info": {
+        "type": "guesthouse",
+        "stars": "4",
+        "area": "south"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {
+        "type": "hotel",
+        "stars": "4",
+        "area": "south"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "name": "riverside brasserie"
+      },
+      "fail_info": {
+        "name": "bedouin"
+      },
+      "book": {
+        "people": "6",
+        "day": "sunday",
+        "invalid": false,
+        "time": "14:30"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul3470": {
+    "hotel": {
+      "info": {
+        "name": "express by holiday inn cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "7",
+        "day": "monday",
+        "invalid": false,
+        "stay": "4"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "birmingham new street",
+        "day": "friday",
+        "arriveby": "17:30",
+        "departure": "cambridge"
+      },
+      "reqt": [
+        "duration"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul0151": {
+    "hotel": {
+      "info": {
+        "area": "centre",
+        "stars": "0",
+        "parking": "yes"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {},
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "cheap",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "1",
+        "day": "monday",
+        "invalid": false,
+        "time": "19:15"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul0586": {
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "19:45",
+        "destination": "cambridge",
+        "day": "saturday",
+        "departure": "broxbourne"
+      },
+      "reqt": [
+        "price",
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul3552": {
+    "hotel": {
+      "info": {
+        "pricerange": "cheap",
+        "stars": "0",
+        "area": "centre"
+      },
+      "reqt": [
+        "parking",
+        "type"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "wednesday",
+        "arriveby": "08:00",
+        "departure": "stevenage"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "7"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul1539": {
+    "hotel": {
+      "info": {
+        "area": "east",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "8",
+        "day": "friday",
+        "invalid": true,
+        "stay": "5"
+      }
+    },
+    "train": {
+      "info": {
+        "leaveat": "14:00",
+        "destination": "cambridge",
+        "day": "sunday",
+        "departure": "norwich"
+      },
+      "reqt": [
+        "trainid",
+        "duration",
+        "price"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1790": {
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "centre"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "18:15",
+        "destination": "cambridge",
+        "day": "saturday",
+        "departure": "peterborough"
+      },
+      "reqt": [
+        "price",
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul3021": {
+    "attraction": {
+      "info": {
+        "area": "centre"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "ely",
+        "day": "saturday",
+        "arriveby": "08:45",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "7"
+      },
+      "fail_book": {}
+    }
+  },
+  "sng0699": {
+    "restaurant": {
+      "info": {
+        "food": "italian",
+        "pricerange": "expensive"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "time": "10:30",
+        "day": "sunday",
+        "invalid": false,
+        "people": "5"
+      },
+      "fail_book": {
+        "time": "11:30"
+      }
+    }
+  },
+  "sng0228": {
+    "hospital": {
+      "info": {
+        "department": "paediatric intensive care unit"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul3296": {
+    "hotel": {
+      "info": {
+        "area": "north",
+        "type": "guesthouse",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "tuesday",
+        "invalid": false,
+        "stay": "4"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "museum",
+        "area": "west"
+      },
+      "reqt": [
+        "entrance fee"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1434": {
+    "train": {
+      "info": {
+        "leaveat": "15:15",
+        "destination": "cambridge",
+        "day": "saturday",
+        "departure": "broxbourne"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "italian",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "time": "18:45",
+        "day": "saturday",
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {
+        "time": "19:45"
+      }
+    }
+  },
+  "pmul2203": {
+    "attraction": {
+      "info": {
+        "type": "nightclub",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "british",
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "friday",
+        "invalid": true,
+        "time": "13:30"
+      }
+    }
+  },
+  "pmul3250": {
+    "attraction": {
+      "info": {
+        "area": "north"
+      },
+      "reqt": [
+        "postcode",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "asian oriental",
+        "pricerange": "expensive",
+        "area": "north"
+      },
+      "fail_info": {
+        "food": "australian",
+        "pricerange": "expensive",
+        "area": "north"
+      },
+      "book": {
+        "people": "6",
+        "day": "saturday",
+        "invalid": true,
+        "time": "15:00"
+      }
+    }
+  },
+  "pmul0510": {
+    "train": {
+      "info": {
+        "destination": "london liverpool street",
+        "day": "tuesday",
+        "arriveby": "11:00",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "thai",
+        "pricerange": "expensive"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "monday",
+        "invalid": false,
+        "time": "11:45"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul1124": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "stars": "4",
+        "area": "centre"
+      },
+      "reqt": [
+        "address",
+        "postcode",
+        "pricerange"
+      ],
+      "fail_info": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "centre"
+      },
+      "reqt": [
+        "entrance fee",
+        "postcode",
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul3719": {
+    "taxi": {
+      "info": {
+        "arriveby": "19:15"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "name": "kirkwood house"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "asian oriental",
+        "area": "centre"
+      },
+      "fail_info": {
+        "food": "vegetarian",
+        "area": "centre"
+      },
+      "book": {
+        "people": "4",
+        "day": "thursday",
+        "invalid": false,
+        "time": "19:15"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul4648": {
+    "attraction": {
+      "info": {
+        "name": "nusha"
+      },
+      "reqt": [
+        "postcode",
+        "address"
+      ],
+      "fail_info": {
+        "name": "little saint mary's church"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "indian",
+        "pricerange": "expensive",
+        "area": "centre"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul2437": {
+    "attraction": {
+      "info": {
+        "type": "architecture",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone",
+        "entrance fee",
+        "address"
+      ],
+      "fail_info": {
+        "type": "mutliple sports",
+        "area": "centre"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "reqt": [
+        "food",
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng0297": {
+    "train": {
+      "info": {
+        "leaveat": "10:00",
+        "destination": "cambridge",
+        "day": "friday",
+        "departure": "london liverpool street"
+      },
+      "reqt": [
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul2049": {
+    "attraction": {
+      "info": {
+        "area": "centre"
+      },
+      "reqt": [
+        "entrance fee",
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {
+        "area": "west"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "time": "12:00",
+        "day": "tuesday",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    }
+  },
+  "sng01722": {
+    "hotel": {
+      "info": {
+        "name": "autumn house"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "stay": "2",
+        "day": "wednesday",
+        "invalid": false,
+        "people": "8"
+      },
+      "fail_book": {
+        "day": "monday"
+      }
+    }
+  },
+  "pmul2100": {
+    "taxi": {
+      "info": {
+        "arriveby": "13:30"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "college"
+      },
+      "reqt": [
+        "address",
+        "area"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "thanh binh"
+      },
+      "fail_info": {},
+      "book": {
+        "time": "13:30",
+        "day": "sunday",
+        "invalid": true,
+        "people": "7"
+      }
+    }
+  },
+  "mul1853": {
+    "attraction": {
+      "info": {
+        "type": "architecture",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {
+        "type": "mutliple sports",
+        "area": "centre"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "friday",
+        "arriveby": "11:30",
+        "departure": "bishops stortford"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "5"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul2694": {
+    "taxi": {
+      "info": {
+        "leaveat": "24:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "moderate",
+        "stars": "4",
+        "area": "south"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "2",
+        "day": "thursday",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "name": "wandlebury country park"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {
+        "name": "scott polar museum"
+      }
+    }
+  },
+  "sng1006": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "type": "hotel",
+        "stars": "3",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "stay": "2",
+        "day": "saturday",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {
+        "stay": "4"
+      }
+    }
+  },
+  "sng1345": {
+    "attraction": {
+      "info": {
+        "type": "cinema",
+        "area": "centre"
+      },
+      "reqt": [
+        "entrance fee",
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {
+        "type": "mutliple sports",
+        "area": "centre"
+      }
+    }
+  },
+  "mul1299": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "type": "guesthouse",
+        "stars": "3",
+        "area": "south"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "3",
+        "day": "saturday",
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "moderate",
+        "area": "south"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1490": {
+    "train": {
+      "info": {
+        "leaveat": "10:15",
+        "destination": "cambridge",
+        "day": "wednesday",
+        "departure": "leicester"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "1"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "modern european",
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "reqt": [
+        "address",
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul2749": {
+    "taxi": {
+      "info": {
+        "leaveat": "08:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "name": "leverton house"
+      },
+      "fail_info": {
+        "name": "hamilton lodge"
+      },
+      "book": {
+        "people": "5",
+        "day": "sunday",
+        "invalid": false,
+        "stay": "4"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "area": "south"
+      },
+      "reqt": [
+        "type",
+        "entrance fee"
+      ],
+      "fail_info": {
+        "area": "centre"
+      }
+    }
+  },
+  "pmul2804": {
+    "hotel": {
+      "info": {
+        "pricerange": "cheap",
+        "area": "east",
+        "type": "guesthouse",
+        "internet": "yes"
+      },
+      "fail_info": {
+        "pricerange": "expensive",
+        "area": "east",
+        "type": "guesthouse",
+        "internet": "yes"
+      },
+      "book": {
+        "people": "3",
+        "day": "tuesday",
+        "invalid": false,
+        "stay": "2"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "architecture",
+        "area": "centre"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1628": {
+    "train": {
+      "info": {
+        "destination": "leicester",
+        "day": "saturday",
+        "arriveby": "11:45",
+        "departure": "cambridge"
+      },
+      "reqt": [
+        "price",
+        "duration"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "gastropub",
+        "area": "east"
+      },
+      "reqt": [
+        "phone",
+        "address",
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul2202": {
+    "attraction": {
+      "info": {
+        "type": "boat",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone",
+        "entrance fee",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "british",
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "fail_info": {
+        "food": "south indian",
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "book": {
+        "people": "4",
+        "day": "thursday",
+        "invalid": false,
+        "time": "15:15"
+      },
+      "fail_book": {}
+    }
+  },
+  "sng01450": {
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "monday",
+        "arriveby": "08:30",
+        "departure": "norwich"
+      },
+      "reqt": [
+        "leaveat",
+        "trainid",
+        "price"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng0131": {
+    "police": {
+      "info": {},
+      "reqt": [
+        "postcode",
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng0984": {
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "stars": "4",
+        "area": "north"
+      },
+      "fail_info": {
+        "internet": "no",
+        "stars": "4",
+        "area": "north"
+      },
+      "book": {
+        "stay": "4",
+        "day": "thursday",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul1419": {
+    "attraction": {
+      "info": {
+        "name": "clare hall"
+      },
+      "reqt": [
+        "phone",
+        "address"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "08:45",
+        "destination": "cambridge",
+        "day": "thursday",
+        "departure": "bishops stortford"
+      },
+      "reqt": [
+        "arriveby",
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng0798": {
+    "hotel": {
+      "info": {
+        "name": "the cambridge belfry"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "2",
+        "day": "saturday",
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul0161": {
+    "taxi": {
+      "info": {
+        "arriveby": "15:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "expensive",
+        "internet": "yes",
+        "type": "hotel",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "1",
+        "day": "friday",
+        "invalid": false,
+        "stay": "4"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "expensive",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "people": "1",
+        "day": "friday",
+        "invalid": false,
+        "time": "15:45"
+      },
+      "fail_book": {
+        "time": "16:45"
+      }
+    }
+  },
+  "pmul2803": {
+    "taxi": {
+      "info": {
+        "leaveat": "13:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "moderate",
+        "stars": "4",
+        "area": "north"
+      },
+      "fail_info": {
+        "pricerange": "expensive",
+        "stars": "4",
+        "area": "north"
+      },
+      "book": {
+        "people": "6",
+        "day": "friday",
+        "invalid": true,
+        "stay": "2"
+      }
+    },
+    "attraction": {
+      "info": {
+        "name": "king's college"
+      },
+      "reqt": [
+        "postcode",
+        "type",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul2499": {
+    "taxi": {
+      "info": {
+        "arriveby": "17:30"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "architecture",
+        "area": "centre"
+      },
+      "reqt": [
+        "entrance fee"
+      ],
+      "fail_info": {
+        "type": "entertainment",
+        "area": "centre"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "cheap",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "time": "17:30",
+        "day": "thursday",
+        "invalid": false,
+        "people": "8"
+      },
+      "fail_book": {
+        "time": "18:30"
+      }
+    }
+  },
+  "mul1575": {
+    "train": {
+      "info": {
+        "leaveat": "12:15",
+        "destination": "peterborough",
+        "day": "saturday",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "8"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "restaurant two two"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "time": "10:15",
+        "day": "friday",
+        "invalid": false,
+        "people": "8"
+      },
+      "fail_book": {
+        "time": "11:15"
+      }
+    }
+  },
+  "mul2690": {
+    "taxi": {
+      "info": {
+        "leaveat": "08:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "type": "guesthouse",
+        "pricerange": "moderate",
+        "stars": "3"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "2",
+        "day": "saturday",
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "boat",
+        "area": "centre"
+      },
+      "reqt": [
+        "address",
+        "entrance fee"
+      ],
+      "fail_info": {
+        "type": "entertainment",
+        "area": "centre"
+      }
+    }
+  },
+  "mul0925": {
+    "attraction": {
+      "info": {
+        "name": "lynne strover gallery"
+      },
+      "reqt": [
+        "entrance fee"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "italian",
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {
+        "food": "christmas",
+        "pricerange": "moderate",
+        "area": "centre"
+      }
+    }
+  },
+  "mul1005": {
+    "taxi": {
+      "info": {
+        "leaveat": "04:15"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "pricerange": "moderate",
+        "stars": "3",
+        "internet": "yes"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    },
+    "attraction": {
+      "info": {
+        "name": "saint john's college"
+      },
+      "reqt": [
+        "area",
+        "address",
+        "entrance fee"
+      ],
+      "fail_info": {
+        "name": "kambar"
+      }
+    }
+  },
+  "mul0602": {
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "pricerange": "moderate",
+        "stars": "4",
+        "area": "south"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "2",
+        "day": "sunday",
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "sunday",
+        "arriveby": "10:45",
+        "departure": "peterborough"
+      },
+      "reqt": [
+        "price",
+        "duration"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul0671": {
+    "hotel": {
+      "info": {
+        "type": "guesthouse",
+        "internet": "yes",
+        "pricerange": "moderate",
+        "area": "north"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "stay": "4",
+        "day": "saturday",
+        "invalid": false,
+        "people": "7"
+      },
+      "fail_book": {
+        "stay": "5"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "saturday",
+        "arriveby": "10:30",
+        "departure": "birmingham new street"
+      },
+      "reqt": [
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng1046": {
+    "hotel": {
+      "info": {
+        "type": "hotel",
+        "stars": "3",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "2",
+        "day": "monday",
+        "invalid": false,
+        "people": "3"
+      },
+      "fail_book": {}
+    }
+  },
+  "sng0104": {
+    "police": {
+      "info": {},
+      "reqt": [
+        "address",
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul4053": {
+    "attraction": {
+      "info": {
+        "type": "college"
+      },
+      "reqt": [
+        "entrance fee",
+        "postcode",
+        "address"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "italian",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone",
+        "postcode",
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "sng1197": {
+    "taxi": {
+      "info": {
+        "leaveat": "08:15",
+        "destination": "kettle's yard",
+        "departure": "curry prince"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1265": {
+    "taxi": {
+      "info": {
+        "arriveby": "17:15"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "type": "hotel",
+        "parking": "no",
+        "pricerange": "moderate",
+        "internet": "yes"
+      },
+      "reqt": [
+        "stars"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "european",
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "time": "17:15",
+        "day": "friday",
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
+    }
+  },
+  "woz20259": {
+    "restaurant": {
+      "info": {
+        "pricerange": "expensive",
+        "area": "east"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1223": {
+    "hotel": {
+      "info": {
+        "type": "hotel",
+        "pricerange": "moderate",
+        "parking": "yes"
+      },
+      "reqt": [
+        "area",
+        "postcode",
+        "stars"
+      ],
+      "fail_info": {
+        "type": "guesthouse",
+        "pricerange": "expensive",
+        "parking": "yes"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "moderate",
+        "area": "centre"
+      },
+      "reqt": [
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {
+        "pricerange": "expensive",
+        "area": "south"
+      }
+    }
+  },
+  "pmul2596": {
+    "taxi": {
+      "info": {
+        "leaveat": "04:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "name": "arbury lodge guesthouse"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "4",
+        "day": "tuesday",
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "west"
+      },
+      "reqt": [
+        "address",
+        "phone",
+        "entrance fee"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul2037": {
+    "hotel": {
+      "info": {
+        "type": "guesthouse",
+        "pricerange": "moderate",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "reqt": [
+        "phone",
+        "internet",
+        "area"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "20:45",
+        "destination": "cambridge",
+        "day": "thursday",
+        "departure": "stansted airport"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "1"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul1497": {
+    "train": {
+      "info": {
+        "destination": "ely",
+        "day": "thursday",
+        "arriveby": "13:00",
+        "departure": "cambridge"
+      },
+      "reqt": [
+        "leaveat",
+        "duration",
+        "price"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "british",
+        "pricerange": "expensive",
+        "area": "east"
+      },
+      "fail_info": {
+        "food": "portuguese",
+        "pricerange": "expensive",
+        "area": "east"
+      },
+      "book": {
+        "time": "19:30",
+        "day": "wednesday",
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul2256": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "type": "guesthouse",
+        "area": "east"
+      },
+      "fail_info": {
+        "parking": "no",
+        "type": "guesthouse",
+        "area": "south"
+      },
+      "book": {
+        "stay": "3",
+        "day": "friday",
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "friday",
+        "arriveby": "20:00",
+        "departure": "stevenage"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "4"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul0076": {
+    "taxi": {
+      "info": {
+        "leaveat": "17:30"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "moderate",
+        "area": "north",
+        "type": "guesthouse",
+        "internet": "yes"
+      },
+      "fail_info": {
+        "pricerange": "cheap",
+        "area": "north",
+        "type": "guesthouse",
+        "internet": "no"
+      },
+      "book": {
+        "pre_invalid": true,
+        "people": "7",
+        "day": "monday",
+        "invalid": false,
+        "stay": "3"
+      },
+      "fail_book": {
+        "stay": "4"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "indian",
+        "pricerange": "moderate",
+        "area": "north"
+      },
+      "reqt": [
+        "address",
+        "postcode"
+      ],
+      "fail_info": {
+        "food": "swiss",
+        "pricerange": "moderate",
+        "area": "north"
+      }
+    }
+  },
+  "pmul2636": {
+    "taxi": {
+      "info": {
+        "leaveat": "13:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "name": "a and b guest house"
+      },
+      "fail_info": {
+        "name": "avalon"
+      },
+      "book": {
+        "people": "6",
+        "day": "tuesday",
+        "invalid": false,
+        "stay": "4"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "museum",
+        "area": "west"
+      },
+      "reqt": [
+        "postcode",
+        "entrance fee",
+        "address"
+      ],
+      "fail_info": {
+        "type": "architecture",
+        "area": "west"
+      }
+    }
+  },
+  "pmul3027": {
+    "attraction": {
+      "info": {
+        "area": "centre"
+      },
+      "reqt": [
+        "entrance fee"
+      ],
+      "fail_info": {
+        "area": "west"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "monday",
+        "arriveby": "16:15",
+        "departure": "leicester"
+      },
+      "reqt": [
+        "duration"
+      ],
+      "fail_info": {}
+    }
+  },
+  "woz20114": {
+    "restaurant": {
+      "info": {
+        "pricerange": "cheap",
+        "area": "north"
+      },
+      "reqt": [
+        "address",
+        "food"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1100": {
+    "taxi": {
+      "info": {
+        "leaveat": "24:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "type": "hotel",
+        "stars": "3",
+        "area": "centre"
+      },
+      "fail_info": {
+        "type": "guesthouse",
+        "stars": "3",
+        "area": "centre"
+      },
+      "book": {
+        "pre_invalid": true,
+        "stay": "3",
+        "day": "sunday",
+        "invalid": false,
+        "people": "8"
+      },
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "area": "centre"
+      },
+      "reqt": [
+        "postcode",
+        "type"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul0476": {
+    "attraction": {
+      "info": {
+        "name": "abbey pool and astroturf pitch"
+      },
+      "reqt": [
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "10:00",
+        "destination": "birmingham new street",
+        "day": "thursday",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "6"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul4469": {
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "west"
+      },
+      "reqt": [
+        "entrance fee",
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "19:15",
+        "destination": "ely",
+        "day": "tuesday",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "2"
+      },
+      "fail_book": {}
+    }
+  },
+  "mul0129": {
+    "hotel": {
+      "info": {
+        "name": "home from home"
+      },
+      "reqt": [
+        "address",
+        "parking",
+        "internet"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "chinese",
+        "pricerange": "expensive"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {
+        "food": "modern global",
+        "pricerange": "expensive"
+      }
+    }
+  },
+  "pmul0263": {
+    "hotel": {
+      "info": {
+        "name": "a and b guest house"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "1",
+        "day": "saturday",
+        "invalid": false,
+        "stay": "5"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "indian",
+        "pricerange": "moderate",
+        "area": "east"
+      },
+      "fail_info": {
+        "food": "crossover",
+        "pricerange": "moderate",
+        "area": "east"
+      },
+      "book": {
+        "people": "1",
+        "day": "saturday",
+        "invalid": true,
+        "time": "14:00"
+      }
+    }
+  },
+  "pmul3597": {
+    "attraction": {
+      "info": {
+        "name": "saint john's college"
+      },
+      "reqt": [
+        "address",
+        "entrance fee"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "11:15",
+        "destination": "cambridge",
+        "day": "friday",
+        "departure": "leicester"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "1"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul1454": {
+    "attraction": {
+      "info": {
+        "type": "college",
+        "area": "west"
+      },
+      "reqt": [
+        "address",
+        "postcode",
+        "entrance fee"
+      ],
+      "fail_info": {
+        "type": "mutliple sports",
+        "area": "west"
+      }
+    },
+    "train": {
+      "info": {
+        "leaveat": "17:45",
+        "destination": "cambridge",
+        "day": "tuesday",
+        "departure": "broxbourne"
+      },
+      "reqt": [
+        "trainid",
+        "duration",
+        "arriveby"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1618": {
+    "train": {
+      "info": {
+        "destination": "bishops stortford",
+        "day": "monday",
+        "arriveby": "15:15",
+        "departure": "cambridge"
+      },
+      "reqt": [
+        "leaveat",
+        "trainid"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "italian",
+        "pricerange": "cheap",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "time": "10:45",
+        "day": "monday",
+        "invalid": false,
+        "people": "7"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul3342": {
+    "train": {
+      "info": {
+        "destination": "london kings cross",
+        "day": "tuesday",
+        "arriveby": "13:30",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "4"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "chinese",
+        "pricerange": "cheap"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "4",
+        "day": "sunday",
+        "invalid": true,
+        "time": "16:45"
+      }
+    }
+  },
+  "pmul0906": {
+    "train": {
+      "info": {
+        "leaveat": "14:30",
+        "destination": "ely",
+        "day": "monday",
+        "departure": "cambridge"
+      },
+      "reqt": [
+        "price"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "midsummer house restaurant"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "7",
+        "day": "monday",
+        "invalid": true,
+        "time": "10:15"
+      }
+    }
+  },
+  "mul1489": {
+    "train": {
+      "info": {
+        "destination": "cambridge",
+        "day": "friday",
+        "arriveby": "11:15",
+        "departure": "peterborough"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "8"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "french",
+        "area": "centre"
+      },
+      "fail_info": {
+        "food": "catalan",
+        "area": "centre"
+      },
+      "book": {
+        "pre_invalid": true,
+        "time": "16:30",
+        "day": "friday",
+        "invalid": false,
+        "people": "8"
+      },
+      "fail_book": {
+        "time": "17:30"
+      }
+    }
+  },
+  "pmul0695": {
+    "train": {
+      "info": {
+        "leaveat": "20:00",
+        "destination": "kings lynn",
+        "day": "tuesday",
+        "departure": "cambridge"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "3"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "moderate",
+        "area": "south"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "3",
+        "day": "monday",
+        "invalid": false,
+        "time": "17:30"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul0307": {
+    "taxi": {
+      "info": {
+        "arriveby": "17:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "name": "city centre north b and b"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "7",
+        "day": "sunday",
+        "invalid": false,
+        "stay": "3"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "portuguese",
+        "pricerange": "cheap",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "7",
+        "day": "saturday",
+        "invalid": false,
+        "time": "18:00"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul3045": {
+    "taxi": {
+      "info": {
+        "arriveby": "12:30"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "name": "the lensfield hotel"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "5",
+        "day": "monday",
+        "invalid": false,
+        "people": "3"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "french",
+        "pricerange": "expensive",
+        "area": "centre"
+      },
+      "fail_info": {},
+      "book": {
+        "time": "12:30",
+        "day": "monday",
+        "invalid": false,
+        "people": "3"
+      },
+      "fail_book": {}
+    }
+  },
+  "sng01608": {
+    "restaurant": {
+      "info": {
+        "food": "turkish",
+        "pricerange": "moderate"
+      },
+      "fail_info": {
+        "food": "portuguese",
+        "pricerange": "moderate"
+      },
+      "book": {
+        "time": "14:00",
+        "day": "monday",
+        "invalid": false,
+        "people": "1"
+      },
+      "fail_book": {}
+    }
+  }
+}

@@ -6,7 +6,7 @@ from ontology import all_domains
 data_path = 'data/multi-woz/'
 save_path = 'data/multi-woz-analysis/'
 save_path_exp = 'data/multi-woz-processed/'
-data_file = 'data.json'
+data_file = 'woz_100.json'
 domains = all_domains
 
 def analysis():
