@@ -1,12 +1,12 @@
 {
   "restaurant": [
     "food",
-    "area",
     "pricerange",
+    "area",
+    "name",
     "book_time",
     "book_day",
-    "book_people",
-    "name"
+    "book_people"
   ],
   "hotel": [
     "type",
@@ -21,8 +21,8 @@
     "name"
   ],
   "attraction": [
-    "type",
     "area",
+    "type",
     "name"
   ],
   "train": [
