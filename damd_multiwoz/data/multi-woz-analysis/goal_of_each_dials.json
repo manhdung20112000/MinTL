@@ -1043,6 +1043,30 @@
       }
     }
   },
+  "mul1013.json": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "internet": "yes",
+        "stars": "4",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "attraction": {
+      "info": {
+        "area": "ba đình"
+      },
+      "reqt": [
+        "postcode",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng0324.json": {
     "train": {
       "info": {
@@ -2146,6 +2170,18 @@
       }
     }
   },
+  "woz20528.json": {
+    "restaurant": {
+      "info": {
+        "food": "đặc sản",
+        "area": "đống đa"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
   "mul1595.json": {
     "train": {
       "info": {
@@ -2555,6 +2591,31 @@
         "people": "1"
       },
       "fail_book": {}
+    }
+  },
+  "pmul3001.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng"
+      },
+      "reqt": [
+        "phone",
+        "address",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "11:59",
+        "destination": "tp việt trì",
+        "day": "thứ 2",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "duration"
+      ],
+      "fail_info": {}
     }
   },
   "sng01675.json": {
@@ -4730,6 +4791,31 @@
       "fail_info": {}
     }
   },
+  "mul1147.json": {
+    "hotel": {
+      "info": {
+        "type": "nhà nghỉ",
+        "stars": "4",
+        "parking": "no"
+      },
+      "reqt": [
+        "area",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "bảo tàng"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {
+        "type": "museum"
+      }
+    }
+  },
   "sng01964.json": {
     "police": {
       "info": {},
@@ -4841,6 +4927,37 @@
       "fail_book": {
         "day": "thứ tư"
       }
+    }
+  },
+  "pmul3998.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "hoàn kiếm"
+      },
+      "reqt": [
+        "phone",
+        "entrance fee",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "pricerange": "sang trọng"
+      },
+      "fail_info": {
+        "food": "scottish",
+        "pricerange": "expensive"
+      },
+      "book": {
+        "people": "7",
+        "day": "thứ hai",
+        "invalid": false,
+        "time": "17:45"
+      },
+      "fail_book": {}
     }
   },
   "sng01493.json": {
@@ -5206,6 +5323,74 @@
       "fail_info": {}
     }
   },
+  "pmul2940.json": {
+    "taxi": {
+      "info": {
+        "leaveat": "05:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "sang trọng",
+        "type": "khách sạn",
+        "stars": "3"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "7",
+        "day": "thứ tư",
+        "invalid": true,
+        "stay": "5"
+      }
+    },
+    "attraction": {
+      "info": {
+        "name": "trường đại học bách khoa hà nội"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul3830.json": {
+    "train": {
+      "info": {
+        "leaveat": "15:00",
+        "destination": "thái nguyên",
+        "day": "thứ 5",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "7"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "pricerange": "rẻ",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "address",
+        "postcode",
+        "phone"
+      ],
+      "fail_info": {
+        "food": "corsica",
+        "pricerange": "cheap",
+        "area": "centre"
+      }
+    }
+  },
   "woz20486.json": {
     "restaurant": {
       "info": {
@@ -5228,6 +5413,37 @@
         "postcode"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul1783.json": {
+    "hotel": {
+      "info": {
+        "area": "cầu giấy",
+        "pricerange": "sang trọng",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "4",
+        "day": "thứ bảy",
+        "invalid": false,
+        "stay": "5"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "16:48",
+        "destination": "nam định",
+        "day": "thứ 5",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "4"
+      },
+      "fail_book": {}
     }
   },
   "mul1792.json": {
@@ -5405,6 +5621,45 @@
         "people": "8"
       },
       "fail_book": {}
+    }
+  },
+  "sng1100.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {
+        "type": "mutliple sports",
+        "area": "centre"
+      }
+    }
+  },
+  "ssng0083.json": {
+    "restaurant": {
+      "info": {
+        "food": "món âu",
+        "area": "ba đình"
+      },
+      "restaurant": "eraina",
+      "fail_info": {
+        "food": "light bites",
+        "area": "centre"
+      },
+      "hotel": false,
+      "book": {
+        "pre_invalid": true,
+        "people": "3",
+        "day": "thứ bảy",
+        "invalid": false,
+        "time": "11:15"
+      },
+      "fail_book": {
+        "day": "thứ sáu"
+      }
     }
   },
   "sng01625.json": {
@@ -5786,6 +6041,31 @@
       "fail_book": {
         "stay": "3"
       }
+    }
+  },
+  "pmul1740.json": {
+    "hotel": {
+      "info": {
+        "name": "vinhomes metropolis luxury apartment 2 br"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "11:59",
+        "destination": "hà nội",
+        "day": "chủ nhật",
+        "departure": "bắc ninh"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "7"
+      },
+      "fail_book": {}
     }
   },
   "pmul1662.json": {
@@ -7000,6 +7280,36 @@
       "fail_book": {}
     }
   },
+  "pmul1900.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "rẻ",
+        "type": "nhà nghỉ",
+        "stars": "4",
+        "area": "hoàn kiếm"
+      },
+      "reqt": [
+        "phone",
+        "postcode",
+        "parking"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hòa lạc",
+        "day": "thứ 7",
+        "arriveby": "21:45",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "5"
+      },
+      "fail_book": {}
+    }
+  },
   "sng0225.json": {
     "hospital": {
       "info": {
@@ -7765,6 +8075,32 @@
       "fail_book": {}
     }
   },
+  "mul1771.json": {
+    "attraction": {
+      "info": {
+        "type": "khu vui chơi giải trí",
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "09:50",
+        "destination": "hà nội",
+        "day": "thứ 4",
+        "departure": "thái nguyên"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "1"
+      },
+      "fail_book": {}
+    }
+  },
   "sng02306.json": {
     "police": {
       "info": {},
@@ -7869,6 +8205,33 @@
       "reqt": [
         "entrance fee",
         "area"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul1751.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "address",
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "thái nguyên",
+        "day": "chủ nhật",
+        "arriveby": "21:30",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "price",
+        "duration"
       ],
       "fail_info": {}
     }
@@ -9499,6 +9862,36 @@
       "fail_book": {}
     }
   },
+  "pmul0802.json": {
+    "train": {
+      "info": {
+        "destination": "tp việt trì",
+        "day": "thứ 5",
+        "arriveby": "11:15",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "đặc sản",
+        "pricerange": "sang trọng"
+      },
+      "reqt": [
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {
+        "food": "singaporean",
+        "pricerange": "expensive"
+      }
+    }
+  },
   "pmul3089.json": {
     "hotel": {
       "info": {
@@ -10433,6 +10826,19 @@
       "fail_info": {}
     }
   },
+  "woz20402.json": {
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "pricerange": "rẻ"
+      },
+      "reqt": [
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
   "ssng0269.json": {
     "hotel": {
       "info": {
@@ -10914,6 +11320,38 @@
       "reqt": [
         "address",
         "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul3571.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "sang trọng",
+        "area": "ba đình",
+        "type": "khách sạn",
+        "internet": "yes"
+      },
+      "fail_info": {
+        "pricerange": "cheap",
+        "area": "centre",
+        "type": "hotel",
+        "internet": "yes"
+      },
+      "book": {
+        "people": "6",
+        "day": "thứ tư",
+        "invalid": true,
+        "stay": "4"
+      }
+    },
+    "attraction": {
+      "info": {
+        "area": "ba đình"
+      },
+      "reqt": [
+        "postcode",
+        "type"
       ],
       "fail_info": {}
     }
@@ -11958,6 +12396,23 @@
         "phone"
       ],
       "fail_info": {}
+    }
+  },
+  "sng02239.json": {
+    "restaurant": {
+      "info": {
+        "food": "hải sản",
+        "pricerange": "rẻ",
+        "area": "hoàn kiếm"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {
+        "food": "swiss",
+        "pricerange": "cheap",
+        "area": "east"
+      }
     }
   },
   "pmul4867.json": {
@@ -13506,35 +13961,6 @@
       "fail_info": {}
     }
   },
-  "mul0911.json": {
-    "attraction": {
-      "info": {
-        "type": "công viên",
-        "area": "đống đa"
-      },
-      "reqt": [
-        "postcode",
-        "entrance fee",
-        "address"
-      ],
-      "fail_info": {}
-    },
-    "restaurant": {
-      "info": {
-        "name": "nhà hàng lẩu nướng hàn quốc"
-      },
-      "fail_info": {
-        "name": "curry king"
-      },
-      "book": {
-        "time": "15:45",
-        "day": "thứ sáu",
-        "invalid": false,
-        "people": "8"
-      },
-      "fail_book": {}
-    }
-  },
   "pmul1513.json": {
     "hotel": {
       "info": {
@@ -14787,6 +15213,32 @@
       "fail_book": {}
     }
   },
+  "mul2154.json": {
+    "hotel": {
+      "info": {
+        "name": "new asean a25"
+      },
+      "reqt": [
+        "phone",
+        "internet"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "16:21",
+        "destination": "hà nội",
+        "day": "thứ 3",
+        "departure": "tp việt trì"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "1"
+      },
+      "fail_book": {}
+    }
+  },
   "pmul3183.json": {
     "hotel": {
       "info": {
@@ -14814,6 +15266,38 @@
       "fail_info": {
         "name": "byard art"
       }
+    }
+  },
+  "pmul1618.json": {
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "type": "khách sạn",
+        "stars": "2",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "thứ ba",
+        "invalid": false,
+        "stay": "5"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "15:00",
+        "destination": "tp việt trì",
+        "day": "chủ nhật",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
     }
   },
   "pmul3993.json": {
@@ -15794,6 +16278,47 @@
       "fail_info": {}
     }
   },
+  "pmul2998.json": {
+    "taxi": {
+      "info": {
+        "leaveat": "20:15"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "vừa phải",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {
+        "pricerange": "expensive",
+        "stars": "1",
+        "internet": "yes"
+      },
+      "book": {
+        "people": "4",
+        "day": "thứ năm",
+        "invalid": true,
+        "stay": "2"
+      }
+    },
+    "attraction": {
+      "info": {
+        "name": "clb bida vtc club"
+      },
+      "reqt": [
+        "address",
+        "postcode",
+        "area"
+      ],
+      "fail_info": {}
+    }
+  },
   "mul2133.json": {
     "hotel": {
       "info": {
@@ -16105,6 +16630,42 @@
         "postcode"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul3130.json": {
+    "hotel": {
+      "info": {
+        "area": "hoàn kiếm",
+        "internet": "yes",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {
+        "area": "east",
+        "internet": "no",
+        "stars": "4",
+        "parking": "yes"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "area": "hoàn kiếm"
+      },
+      "fail_info": {
+        "food": "irish",
+        "area": "east"
+      },
+      "book": {
+        "people": "2",
+        "day": "thứ tư",
+        "invalid": false,
+        "time": "13:45"
+      },
+      "fail_book": {}
     }
   },
   "sng01921.json": {
@@ -16543,6 +17104,32 @@
       "fail_info": {}
     }
   },
+  "pmul1010.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "entrance fee",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "15:59",
+        "destination": "nam định",
+        "day": "thứ 3",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "arriveby",
+        "duration"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng1381.json": {
     "train": {
       "info": {
@@ -16703,6 +17290,36 @@
         "address"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul4261.json": {
+    "hotel": {
+      "info": {
+        "type": "nhà nghỉ",
+        "pricerange": "rẻ",
+        "stars": "4",
+        "area": "hoàn kiếm"
+      },
+      "reqt": [
+        "phone",
+        "postcode",
+        "parking"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hòa lạc",
+        "day": "thứ 7",
+        "arriveby": "21:45",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "5"
+      },
+      "fail_book": {}
     }
   },
   "sng0864.json": {
@@ -17757,6 +18374,51 @@
       "fail_info": {}
     }
   },
+  "pmul4334.json": {
+    "taxi": {
+      "info": {
+        "arriveby": "15:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "pricerange": "rẻ",
+        "type": "khách sạn",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "chủ nhật",
+        "invalid": false,
+        "stay": "4"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "món nhật-hàn",
+        "area": "ba đình"
+      },
+      "fail_info": {
+        "food": "bistro",
+        "area": "centre"
+      },
+      "book": {
+        "people": "2",
+        "day": "chủ nhật",
+        "invalid": false,
+        "time": "15:00"
+      },
+      "fail_book": {}
+    }
+  },
   "pmul1794.json": {
     "hotel": {
       "info": {
@@ -18206,6 +18868,38 @@
       "fail_info": {}
     }
   },
+  "pmul0115.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "sang trọng",
+        "type": "khách sạn",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "stars",
+        "address",
+        "internet"
+      ],
+      "fail_info": {
+        "pricerange": "expensive",
+        "type": "guesthouse",
+        "area": "centre"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "sang trọng",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "8",
+        "day": "thứ bảy",
+        "invalid": true,
+        "time": "15:30"
+      }
+    }
+  },
   "pmul2216.json": {
     "taxi": {
       "info": {
@@ -18248,6 +18942,20 @@
       "reqt": [
         "address",
         "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "woz20647.json": {
+    "restaurant": {
+      "info": {
+        "food": "món âu",
+        "pricerange": "sang trọng"
+      },
+      "reqt": [
+        "address",
+        "phone",
+        "area"
       ],
       "fail_info": {}
     }
@@ -19808,41 +20516,6 @@
       "fail_book": {}
     }
   },
-  "pmul4184.json": {
-    "taxi": {
-      "info": {
-        "arriveby": "15:00"
-      },
-      "reqt": [
-        "car type",
-        "phone"
-      ],
-      "fail_info": {}
-    },
-    "attraction": {
-      "info": {
-        "area": "tây hồ"
-      },
-      "reqt": [
-        "type"
-      ],
-      "fail_info": {
-        "area": "west"
-      }
-    },
-    "restaurant": {
-      "info": {
-        "name": "nhà hàng nhật bản hải ngư"
-      },
-      "fail_info": {},
-      "book": {
-        "people": "8",
-        "day": "thứ năm",
-        "invalid": true,
-        "time": "15:00"
-      }
-    }
-  },
   "pmul3876.json": {
     "hotel": {
       "info": {
@@ -20654,6 +21327,18 @@
       "reqt": [
         "postcode",
         "phone",
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "woz20469.json": {
+    "restaurant": {
+      "info": {
+        "food": "hàn quốc",
+        "pricerange": "rẻ"
+      },
+      "reqt": [
         "address"
       ],
       "fail_info": {}
@@ -21836,6 +22521,31 @@
       "fail_info": {}
     }
   },
+  "pmul1394.json": {
+    "attraction": {
+      "info": {
+        "name": "bảo tàng lịch sử quân sự việt nam"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {
+        "name": "cafe jello gallery"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "hạ long",
+        "day": "thứ 5",
+        "arriveby": "21:30",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "leaveat"
+      ],
+      "fail_info": {}
+    }
+  },
   "woz20189.json": {
     "restaurant": {
       "info": {
@@ -21944,6 +22654,40 @@
         "arriveby"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul3191.json": {
+    "train": {
+      "info": {
+        "destination": "tp việt trì",
+        "day": "thứ 5",
+        "arriveby": "10:45",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "price",
+        "leaveat",
+        "duration"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "món việt",
+        "pricerange": "rẻ",
+        "area": "ba đình"
+      },
+      "fail_info": {
+        "food": "corsica",
+        "pricerange": "cheap",
+        "area": "centre"
+      },
+      "book": {
+        "people": "1",
+        "day": "chủ nhật",
+        "invalid": true,
+        "time": "11:15"
+      }
     }
   },
   "woz20376.json": {
@@ -22478,6 +23222,19 @@
       }
     }
   },
+  "woz20203.json": {
+    "restaurant": {
+      "info": {
+        "food": "hải sản",
+        "area": "hoàn kiếm"
+      },
+      "reqt": [
+        "phone",
+        "pricerange"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng0696.json": {
     "restaurant": {
       "info": {
@@ -23005,6 +23762,28 @@
         "leaveat"
       ],
       "fail_info": {}
+    }
+  },
+  "sng0473.json": {
+    "restaurant": {
+      "info": {
+        "food": "đặc sản",
+        "area": "hoàn kiếm"
+      },
+      "fail_info": {
+        "food": "basque",
+        "area": "east"
+      },
+      "book": {
+        "pre_invalid": true,
+        "time": "15:00",
+        "day": "thứ ba",
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {
+        "time": "16:00"
+      }
     }
   },
   "pmul4260.json": {
@@ -23854,6 +24633,38 @@
       "fail_info": {}
     }
   },
+  "pmul1960.json": {
+    "hotel": {
+      "info": {
+        "area": "tây hồ",
+        "internet": "yes",
+        "type": "nhà nghỉ",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "1",
+        "day": "thứ năm",
+        "invalid": false,
+        "stay": "2"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "21:59",
+        "destination": "hà nội",
+        "day": "thứ 5",
+        "departure": "hạ long"
+      },
+      "reqt": [
+        "price",
+        "duration",
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
   "pmul3848.json": {
     "hotel": {
       "info": {
@@ -24649,6 +25460,19 @@
       "fail_info": {}
     }
   },
+  "sng02250.json": {
+    "restaurant": {
+      "info": {
+        "pricerange": "rẻ",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "phone",
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
   "pmul0091.json": {
     "hotel": {
       "info": {
@@ -25207,6 +26031,21 @@
       "fail_book": {
         "time": "12:15"
       }
+    }
+  },
+  "sng02042.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 4",
+        "arriveby": "17:15",
+        "departure": "bắc ninh"
+      },
+      "reqt": [
+        "trainid",
+        "leaveat"
+      ],
+      "fail_info": {}
     }
   },
   "pmul1540.json": {
@@ -26046,6 +26885,40 @@
       "fail_info": {}
     }
   },
+  "pmul2867.json": {
+    "taxi": {
+      "info": {
+        "leaveat": "07:30"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "reqt": [
+        "area",
+        "type"
+      ],
+      "fail_info": {},
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "name": "trường đại học kinh tế quốc dân"
+      },
+      "reqt": [
+        "entrance fee"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng0420.json": {
     "train": {
       "info": {
@@ -26252,6 +27125,36 @@
       "fail_info": {}
     }
   },
+  "pmul0813.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 2",
+        "arriveby": "18:15",
+        "departure": "nam định"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "8"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "pricerange": "sang trọng",
+        "area": "đống đa"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "8",
+        "day": "thứ hai",
+        "invalid": true,
+        "time": "21:00"
+      }
+    }
+  },
   "sng01981.json": {
     "taxi": {
       "info": {
@@ -26324,6 +27227,38 @@
         "people": "5"
       },
       "fail_book": {}
+    }
+  },
+  "mul2090.json": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "pricerange": "sang trọng",
+        "internet": "yes",
+        "area": "hoàn kiếm"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "3",
+        "day": "thứ sáu",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "18:48",
+        "destination": "hà nội",
+        "day": "thứ 6",
+        "departure": "bắc ninh"
+      },
+      "reqt": [
+        "price",
+        "trainid",
+        "duration"
+      ],
+      "fail_info": {}
     }
   },
   "sng0510.json": {
@@ -26547,6 +27482,41 @@
       "fail_book": {
         "time": "18:00"
       }
+    }
+  },
+  "pmul4157.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 6",
+        "arriveby": "09:30",
+        "departure": "hòa lạc"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "5"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "món âu",
+        "pricerange": "sang trọng",
+        "area": "cầu giấy"
+      },
+      "fail_info": {
+        "food": "brazilian",
+        "pricerange": "expensive",
+        "area": "west"
+      },
+      "book": {
+        "people": "5",
+        "day": "thứ sáu",
+        "invalid": false,
+        "time": "13:30"
+      },
+      "fail_book": {}
     }
   },
   "mul0382.json": {
@@ -27260,6 +28230,20 @@
       "fail_info": {}
     }
   },
+  "sng01387.json": {
+    "taxi": {
+      "info": {
+        "destination": "trường đại học phương đông",
+        "departure": "ga hải phòng",
+        "arriveby": "12:15"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng01254.json": {
     "hospital": {
       "info": {},
@@ -27443,6 +28427,37 @@
       "fail_book": {
         "day": "thứ hai"
       }
+    }
+  },
+  "pmul3151.json": {
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "stars": "4",
+        "area": "hoàn kiếm"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "4",
+        "day": "chủ nhật",
+        "invalid": false,
+        "people": "3"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "21:00",
+        "destination": "hà nội",
+        "day": "chủ nhật",
+        "departure": "hải phòng"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "3"
+      },
+      "fail_book": {}
     }
   },
   "sng0491.json": {
@@ -27788,6 +28803,39 @@
         "postcode"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul3887.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 2",
+        "arriveby": "13:30",
+        "departure": "sân bay nội bài"
+      },
+      "reqt": [
+        "leaveat",
+        "duration"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "pricerange": "sang trọng",
+        "area": "tây hồ"
+      },
+      "fail_info": {
+        "food": "venetian",
+        "pricerange": "expensive",
+        "area": "north"
+      },
+      "book": {
+        "people": "5",
+        "day": "thứ năm",
+        "invalid": true,
+        "time": "16:30"
+      }
     }
   },
   "woz20275.json": {
@@ -28207,6 +29255,31 @@
         "people": "8"
       },
       "fail_book": {}
+    }
+  },
+  "pmul1123.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "13:00",
+        "destination": "hà nội",
+        "day": "thứ 2",
+        "departure": "sân bay nội bài"
+      },
+      "reqt": [
+        "trainid",
+        "arriveby"
+      ],
+      "fail_info": {}
     }
   },
   "pmul1357.json": {
@@ -28859,6 +29932,22 @@
         "invalid": true,
         "time": "14:45"
       }
+    }
+  },
+  "sng01734.json": {
+    "train": {
+      "info": {
+        "leaveat": "20:40",
+        "destination": "thái nguyên",
+        "day": "thứ 3",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "1"
+      },
+      "fail_book": {}
     }
   },
   "mul2549.json": {
@@ -29581,6 +30670,36 @@
       }
     }
   },
+  "pmul2150.json": {
+    "attraction": {
+      "info": {
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "entrance fee",
+        "type"
+      ],
+      "fail_info": {
+        "area": "south"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "nhật bản",
+        "pricerange": "sang trọng"
+      },
+      "fail_info": {
+        "food": "traditional",
+        "pricerange": "expensive"
+      },
+      "book": {
+        "people": "3",
+        "day": "thứ năm",
+        "invalid": true,
+        "time": "19:45"
+      }
+    }
+  },
   "ssng0070.json": {
     "restaurant": {
       "info": {
@@ -29854,6 +30973,19 @@
         "people": "8"
       },
       "fail_book": {}
+    }
+  },
+  "woz20173.json": {
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "area": "tây hồ"
+      },
+      "reqt": [
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
     }
   },
   "sng01842.json": {
@@ -30226,6 +31358,51 @@
       "fail_info": {}
     }
   },
+  "mul1356.json": {
+    "taxi": {
+      "info": {
+        "arriveby": "12:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "type": "nhà nghỉ",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "reqt": [
+        "internet",
+        "postcode",
+        "pricerange"
+      ],
+      "fail_info": {
+        "type": "hotel",
+        "stars": "1",
+        "parking": "yes"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "đặc sản",
+        "pricerange": "rẻ",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "time": "12:00",
+        "day": "thứ năm",
+        "invalid": false,
+        "people": "5"
+      },
+      "fail_book": {}
+    }
+  },
   "sng0353.json": {
     "train": {
       "info": {
@@ -30288,6 +31465,37 @@
       "reqt": [
         "car type",
         "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul0453.json": {
+    "attraction": {
+      "info": {
+        "type": "công viên",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "entrance fee",
+        "phone",
+        "address"
+      ],
+      "fail_info": {
+        "type": "entertainment",
+        "area": "centre"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "tp phủ lý",
+        "day": "thứ 6",
+        "arriveby": "10:15",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "trainid",
+        "duration",
+        "price"
       ],
       "fail_info": {}
     }
@@ -30588,6 +31796,43 @@
       "fail_info": {}
     }
   },
+  "mul0662.json": {
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "type": "nhà nghỉ",
+        "stars": "3",
+        "area": "cầu giấy"
+      },
+      "fail_info": {
+        "internet": "yes",
+        "type": "guesthouse",
+        "stars": "3",
+        "area": "east"
+      },
+      "book": {
+        "stay": "2",
+        "day": "thứ sáu",
+        "invalid": false,
+        "people": "5"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "20:40",
+        "destination": "hà nội",
+        "day": "thứ 6",
+        "departure": "tp phủ lý"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "5"
+      },
+      "fail_book": {}
+    }
+  },
   "mul2175.json": {
     "hotel": {
       "info": {
@@ -30740,6 +31985,41 @@
       "fail_info": {}
     }
   },
+  "pmul4153.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "rẻ",
+        "type": "nhà nghỉ",
+        "stars": "0",
+        "area": "ba đình"
+      },
+      "fail_info": {
+        "pricerange": "expensive",
+        "type": "guesthouse",
+        "stars": "0",
+        "area": "centre"
+      },
+      "book": {
+        "people": "8",
+        "day": "chủ nhật",
+        "invalid": false,
+        "stay": "3"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "rẻ",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "phone",
+        "postcode",
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
   "woz20129.json": {
     "restaurant": {
       "info": {
@@ -30752,34 +32032,6 @@
         "food"
       ],
       "fail_info": {}
-    }
-  },
-  "pmul4775.json": {
-    "train": {
-      "info": {
-        "destination": "hà nội",
-        "day": "chủ nhật",
-        "arriveby": "12:00",
-        "departure": "tp phủ lý"
-      },
-      "reqt": [
-        "duration",
-        "leaveat"
-      ],
-      "fail_info": {}
-    },
-    "restaurant": {
-      "info": {
-        "pricerange": "sang trọng",
-        "area": "cầu giấy"
-      },
-      "fail_info": {},
-      "book": {
-        "people": "3",
-        "day": "thứ sáu",
-        "invalid": true,
-        "time": "16:30"
-      }
     }
   },
   "mul2463.json": {
@@ -32263,6 +33515,31 @@
       }
     }
   },
+  "pmul3208.json": {
+    "attraction": {
+      "info": {
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "type"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "21:00",
+        "destination": "hà nội",
+        "day": "thứ 2",
+        "departure": "tp bắc giang"
+      },
+      "reqt": [
+        "arriveby",
+        "price",
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng02117.json": {
     "police": {
       "info": {},
@@ -33322,6 +34599,71 @@
       "fail_info": {}
     }
   },
+  "pmul2860.json": {
+    "taxi": {
+      "info": {
+        "leaveat": "22:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "stars": "4",
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {},
+      "fail_book": {}
+    },
+    "attraction": {
+      "info": {
+        "type": "bảo tàng"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {
+        "type": "nightclub"
+      }
+    }
+  },
+  "pmul0849.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 7",
+        "arriveby": "15:45",
+        "departure": "hòa lạc"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "sang trọng",
+        "area": "đống đa"
+      },
+      "reqt": [
+        "phone",
+        "food"
+      ],
+      "fail_info": {
+        "pricerange": "cheap",
+        "area": "east"
+      }
+    }
+  },
   "mul0569.json": {
     "attraction": {
       "info": {
@@ -33983,6 +35325,35 @@
         "phone"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul0617.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 5",
+        "arriveby": "13:30",
+        "departure": "hạ long"
+      },
+      "reqt": [
+        "price",
+        "leaveat"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "pricerange": "vừa phải",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "6",
+        "day": "thứ năm",
+        "invalid": true,
+        "time": "17:00"
+      }
     }
   },
   "pmul3962.json": {
@@ -35079,6 +36450,19 @@
       "fail_book": {}
     }
   },
+  "woz20334.json": {
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "pricerange": "sang trọng"
+      },
+      "reqt": [
+        "phone",
+        "area"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng01355.json": {
     "police": {
       "info": {},
@@ -35651,6 +37035,20 @@
       "fail_info": {}
     }
   },
+  "sng1231.json": {
+    "train": {
+      "info": {
+        "leaveat": "08:48",
+        "destination": "hà nội",
+        "day": "thứ 6",
+        "departure": "tp bắc giang"
+      },
+      "reqt": [
+        "arriveby"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng01793.json": {
     "hospital": {
       "info": {},
@@ -35786,6 +37184,35 @@
         "phone"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul1395.json": {
+    "attraction": {
+      "info": {
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "postcode",
+        "address",
+        "entrance fee"
+      ],
+      "fail_info": {
+        "area": "centre"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 3",
+        "arriveby": "18:30",
+        "departure": "tp phủ lý"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "5"
+      },
+      "fail_book": {}
     }
   },
   "sng01310.json": {
@@ -36599,6 +38026,33 @@
       "fail_book": {}
     }
   },
+  "mul0345.json": {
+    "train": {
+      "info": {
+        "leaveat": "15:59",
+        "destination": "hà nội",
+        "day": "chủ nhật",
+        "departure": "tp thanh hóa"
+      },
+      "reqt": [
+        "arriveby"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "chef mama"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "8",
+        "day": "chủ nhật",
+        "invalid": false,
+        "time": "19:30"
+      },
+      "fail_book": {}
+    }
+  },
   "sng01661.json": {
     "train": {
       "info": {
@@ -36910,6 +38364,37 @@
         "phone"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul4405.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "rẻ",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "3",
+        "day": "thứ hai",
+        "invalid": false,
+        "stay": "5"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "19:59",
+        "destination": "hà nội",
+        "day": "thứ 7",
+        "departure": "tp bắc ninh"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "3"
+      },
+      "fail_book": {}
     }
   },
   "sng02139.json": {
@@ -37582,6 +39067,37 @@
         "address"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul1643.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "sang trọng",
+        "type": "khách sạn",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "1",
+        "day": "chủ nhật",
+        "invalid": false,
+        "stay": "3"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "chủ nhật",
+        "arriveby": "14:30",
+        "departure": "tp thanh hóa"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "1"
+      },
+      "fail_book": {}
     }
   },
   "pmul0210.json": {
@@ -38326,6 +39842,38 @@
       "fail_info": {}
     }
   },
+  "pmul2165.json": {
+    "attraction": {
+      "info": {
+        "type": "nhà hát",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "address",
+        "postcode"
+      ],
+      "fail_info": {
+        "type": "mutliple sports",
+        "area": "centre"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "pricerange": "rẻ",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {
+        "food": "afghan",
+        "pricerange": "cheap",
+        "area": "centre"
+      }
+    }
+  },
   "pmul4378.json": {
     "hotel": {
       "info": {
@@ -38617,6 +40165,37 @@
       "reqt": [
         "price",
         "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul4666.json": {
+    "hotel": {
+      "info": {
+        "area": "tây hồ",
+        "type": "nhà nghỉ",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "reqt": [
+        "phone",
+        "postcode",
+        "address"
+      ],
+      "fail_info": {
+        "area": "south",
+        "type": "hotel",
+        "stars": "4",
+        "parking": "yes"
+      }
+    },
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "entrance fee"
       ],
       "fail_info": {}
     }
@@ -38944,23 +40523,6 @@
         "postcode"
       ],
       "fail_info": {}
-    }
-  },
-  "sng0453.json": {
-    "restaurant": {
-      "info": {
-        "pricerange": "sang trọng",
-        "area": "cầu giấy"
-      },
-      "reqt": [
-        "address",
-        "food",
-        "postcode"
-      ],
-      "fail_info": {
-        "pricerange": "cheap",
-        "area": "north"
-      }
     }
   },
   "sng0669.json": {
@@ -40201,6 +41763,19 @@
       "fail_info": {}
     }
   },
+  "woz20147.json": {
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "pricerange": "rẻ"
+      },
+      "reqt": [
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng02246.json": {
     "police": {
       "info": {},
@@ -40312,6 +41887,36 @@
       "fail_book": {}
     }
   },
+  "pmul0681.json": {
+    "train": {
+      "info": {
+        "destination": "nam định",
+        "day": "thứ 5",
+        "arriveby": "10:30",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "price"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "area": "đống đa"
+      },
+      "fail_info": {
+        "food": "barbeque",
+        "area": "south"
+      },
+      "book": {
+        "people": "8",
+        "day": "thứ năm",
+        "invalid": true,
+        "time": "18:45"
+      }
+    }
+  },
   "pmul3295.json": {
     "hotel": {
       "info": {
@@ -40339,6 +41944,37 @@
         "duration"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul0932.json": {
+    "train": {
+      "info": {
+        "leaveat": "21:00",
+        "destination": "hải phòng",
+        "day": "thứ 2",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "1"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "nhật bản",
+        "pricerange": "sang trọng",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "postcode"
+      ],
+      "fail_info": {
+        "food": "caribbean",
+        "pricerange": "expensive",
+        "area": "centre"
+      }
     }
   },
   "mul0434.json": {
@@ -41141,6 +42777,32 @@
       }
     }
   },
+  "pmul1098.json": {
+    "attraction": {
+      "info": {
+        "type": "công trình kiến trúc",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "phone",
+        "address",
+        "entrance fee"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "08:21",
+        "destination": "hà nội",
+        "day": "chủ nhật",
+        "departure": "hòa lạc"
+      },
+      "reqt": [
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng02343.json": {
     "police": {
       "info": {},
@@ -41288,6 +42950,19 @@
         "pricerange": "sang trọng"
       },
       "reqt": [
+        "area"
+      ],
+      "fail_info": {}
+    }
+  },
+  "woz20132.json": {
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "pricerange": "sang trọng"
+      },
+      "reqt": [
+        "phone",
         "area"
       ],
       "fail_info": {}
@@ -41455,6 +43130,32 @@
         "phone"
       ],
       "fail_info": {}
+    }
+  },
+  "mul2161.json": {
+    "hotel": {
+      "info": {
+        "name": "lotus homestay hanoi"
+      },
+      "reqt": [
+        "address",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "09:00",
+        "destination": "tp thanh hóa",
+        "day": "chủ nhật",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "7"
+      },
+      "fail_book": {}
     }
   },
   "sng02178.json": {
@@ -41627,45 +43328,6 @@
         "phone"
       ],
       "fail_info": {}
-    }
-  },
-  "sng1214.json": {
-    "attraction": {
-      "info": {
-        "type": "đại học",
-        "area": "cầu giấy"
-      },
-      "reqt": [
-        "phone"
-      ],
-      "fail_info": {}
-    }
-  },
-  "pmul0666.json": {
-    "train": {
-      "info": {
-        "destination": "hà nội",
-        "day": "chủ nhật",
-        "arriveby": "08:00",
-        "departure": "hạ long"
-      },
-      "reqt": [
-        "trainid",
-        "price"
-      ],
-      "fail_info": {}
-    },
-    "restaurant": {
-      "info": {
-        "food": "lẩu",
-        "pricerange": "sang trọng",
-        "area": "ba đình"
-      },
-      "reqt": [
-        "phone"
-      ],
-      "fail_info": {},
-      "fail_book": {}
     }
   },
   "sng02201.json": {
@@ -42195,51 +43857,6 @@
       "book": {
         "invalid": true,
         "people": "7"
-      },
-      "fail_book": {}
-    }
-  },
-  "mul0022.json": {
-    "taxi": {
-      "info": {
-        "arriveby": "16:45"
-      },
-      "reqt": [
-        "car type",
-        "phone"
-      ],
-      "fail_info": {}
-    },
-    "hotel": {
-      "info": {
-        "pricerange": "sang trọng",
-        "stars": "3",
-        "parking": "yes"
-      },
-      "fail_info": {},
-      "book": {
-        "pre_invalid": true,
-        "people": "5",
-        "day": "chủ nhật",
-        "invalid": false,
-        "stay": "2"
-      },
-      "fail_book": {
-        "stay": "5"
-      }
-    },
-    "restaurant": {
-      "info": {
-        "name": "nhà hàng buffet chef dzung"
-      },
-      "fail_info": {
-        "name": "cambridge lodge restaurant"
-      },
-      "book": {
-        "people": "5",
-        "day": "chủ nhật",
-        "invalid": false,
-        "time": "16:45"
       },
       "fail_book": {}
     }
@@ -42924,6 +44541,21 @@
       "fail_info": {}
     }
   },
+  "sng0341.json": {
+    "train": {
+      "info": {
+        "leaveat": "13:59",
+        "destination": "hà nội",
+        "day": "thứ 3",
+        "departure": "nam định"
+      },
+      "reqt": [
+        "price",
+        "duration"
+      ],
+      "fail_info": {}
+    }
+  },
   "pmul0845.json": {
     "train": {
       "info": {
@@ -43168,6 +44800,38 @@
       "reqt": [
         "car type",
         "phone"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul4892.json": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "type": "nhà nghỉ",
+        "stars": "4",
+        "area": "tây hồ"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "3",
+        "day": "thứ tư",
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 4",
+        "arriveby": "08:15",
+        "departure": "tp bắc giang"
+      },
+      "reqt": [
+        "leaveat",
+        "price",
+        "duration"
       ],
       "fail_info": {}
     }
@@ -43538,21 +45202,6 @@
       "fail_book": {}
     }
   },
-  "sng02150.json": {
-    "restaurant": {
-      "info": {
-        "pricerange": "sang trọng",
-        "area": "cầu giấy"
-      },
-      "reqt": [
-        "address"
-      ],
-      "fail_info": {
-        "pricerange": "expensive",
-        "area": "east"
-      }
-    }
-  },
   "sng0020.json": {
     "taxi": {
       "info": {
@@ -43677,6 +45326,38 @@
       "fail_info": {}
     }
   },
+  "pmul1819.json": {
+    "hotel": {
+      "info": {
+        "area": "tây hồ",
+        "type": "nhà nghỉ",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "thứ tư",
+        "invalid": false,
+        "stay": "3"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 4",
+        "arriveby": "08:15",
+        "departure": "tp bắc giang"
+      },
+      "reqt": [
+        "leaveat",
+        "price",
+        "duration"
+      ],
+      "fail_info": {}
+    }
+  },
   "woz20101.json": {
     "restaurant": {
       "info": {
@@ -43685,6 +45366,35 @@
       },
       "reqt": [
         "phone",
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
+  "pmul3383.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "vừa phải",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {
+        "pricerange": "cheap",
+        "stars": "5",
+        "internet": "yes"
+      },
+      "book": {
+        "people": "3",
+        "day": "chủ nhật",
+        "invalid": true,
+        "stay": "4"
+      }
+    },
+    "attraction": {
+      "info": {
+        "area": "hoàn kiếm"
+      },
+      "reqt": [
         "address"
       ],
       "fail_info": {}
@@ -44404,6 +46114,38 @@
       "fail_info": {}
     }
   },
+  "pmul3452.json": {
+    "hotel": {
+      "info": {
+        "area": "tây hồ",
+        "internet": "yes",
+        "type": "nhà nghỉ",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "1",
+        "day": "thứ năm",
+        "invalid": false,
+        "stay": "2"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "21:59",
+        "destination": "hà nội",
+        "day": "thứ 5",
+        "departure": "hạ long"
+      },
+      "reqt": [
+        "price",
+        "duration",
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng01670.json": {
     "hospital": {
       "info": {},
@@ -44656,6 +46398,44 @@
       }
     }
   },
+  "pmul0450.json": {
+    "taxi": {
+      "info": {
+        "arriveby": "12:15"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "area": "tây hồ",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "4",
+        "day": "thứ hai",
+        "invalid": true,
+        "stay": "4"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "name": "măm măm bbq"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "4",
+        "day": "thứ hai",
+        "invalid": true,
+        "time": "12:15"
+      }
+    }
+  },
   "sng01339.json": {
     "train": {
       "info": {
@@ -44715,6 +46495,19 @@
         "type": "entertainment",
         "area": "centre"
       }
+    }
+  },
+  "woz20284.json": {
+    "restaurant": {
+      "info": {
+        "food": "món việt",
+        "area": "đống đa"
+      },
+      "reqt": [
+        "address",
+        "pricerange"
+      ],
+      "fail_info": {}
     }
   },
   "pmul4642.json": {
@@ -45481,6 +47274,19 @@
       "fail_info": {}
     }
   },
+  "woz20225.json": {
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "area": "tây hồ"
+      },
+      "reqt": [
+        "address",
+        "phone"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng01480.json": {
     "taxi": {
       "info": {
@@ -45502,6 +47308,40 @@
         "address"
       ],
       "fail_info": {}
+    }
+  },
+  "mul0087.json": {
+    "hotel": {
+      "info": {
+        "area": "ba đình",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "people": "3",
+        "day": "chủ nhật",
+        "invalid": false,
+        "stay": "3"
+      },
+      "fail_book": {
+        "stay": "5"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "món trung quốc",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "3",
+        "day": "chủ nhật",
+        "invalid": false,
+        "time": "14:15"
+      },
+      "fail_book": {}
     }
   },
   "sng01985.json": {
@@ -47198,6 +49038,33 @@
       "fail_info": {}
     }
   },
+  "mul1970.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {
+        "type": "cinema",
+        "area": "west"
+      }
+    },
+    "train": {
+      "info": {
+        "leaveat": "08:21",
+        "destination": "tp việt trì",
+        "day": "thứ 6",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "price"
+      ],
+      "fail_info": {}
+    }
+  },
   "mul0720.json": {
     "hotel": {
       "info": {
@@ -47485,6 +49352,35 @@
         "phone"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul0649.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 5",
+        "arriveby": "11:45",
+        "departure": "nam định"
+      },
+      "reqt": [
+        "duration",
+        "price"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "2",
+        "day": "thứ năm",
+        "invalid": false,
+        "time": "16:15"
+      },
+      "fail_book": {}
     }
   },
   "sng0216.json": {
@@ -47864,6 +49760,37 @@
       "fail_book": {}
     }
   },
+  "pmul1882.json": {
+    "hotel": {
+      "info": {
+        "area": "tây hồ",
+        "stars": "4",
+        "internet": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "6",
+        "day": "thứ hai",
+        "invalid": false,
+        "stay": "3"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "08:48",
+        "destination": "hạ long",
+        "day": "thứ 3",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    }
+  },
   "pmul2823.json": {
     "taxi": {
       "info": {
@@ -47900,6 +49827,44 @@
         "address"
       ],
       "fail_info": {}
+    }
+  },
+  "pmul2387.json": {
+    "taxi": {
+      "info": {
+        "arriveby": "13:30"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "attraction": {
+      "info": {
+        "area": "ba đình"
+      },
+      "reqt": [
+        "address",
+        "phone",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "nướng",
+        "pricerange": "sang trọng",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "3",
+        "day": "thứ bảy",
+        "invalid": false,
+        "time": "13:30"
+      },
+      "fail_book": {}
     }
   },
   "sng1046.json": {
@@ -48528,6 +50493,30 @@
       "fail_info": {}
     }
   },
+  "mul1740.json": {
+    "attraction": {
+      "info": {
+        "type": "công viên"
+      },
+      "reqt": [
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 3",
+        "arriveby": "21:00",
+        "departure": "tp bắc giang"
+      },
+      "reqt": [
+        "duration",
+        "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
   "pmul1352.json": {
     "attraction": {
       "info": {
@@ -49029,6 +51018,37 @@
         "people": "8"
       },
       "fail_book": {}
+    }
+  },
+  "pmul3497.json": {
+    "hotel": {
+      "info": {
+        "area": "tây hồ",
+        "type": "nhà nghỉ",
+        "parking": "yes"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "6",
+        "day": "chủ nhật",
+        "invalid": false,
+        "stay": "2"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu",
+        "pricerange": "rẻ"
+      },
+      "reqt": [
+        "area",
+        "address"
+      ],
+      "fail_info": {
+        "food": "steakhouse",
+        "pricerange": "cheap"
+      }
     }
   },
   "mul1589.json": {
@@ -49966,6 +51986,31 @@
       "fail_book": {}
     }
   },
+  "pmul4620.json": {
+    "attraction": {
+      "info": {
+        "type": "đại học",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "entrance fee",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 4",
+        "arriveby": "08:30",
+        "departure": "tp thanh hóa"
+      },
+      "reqt": [
+        "price"
+      ],
+      "fail_info": {}
+    }
+  },
   "sng1142.json": {
     "attraction": {
       "info": {
@@ -50761,6 +52806,44 @@
       "fail_info": {}
     }
   },
+  "mul0049.json": {
+    "taxi": {
+      "info": {
+        "leaveat": "22:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "name": "[ happinest ] center west lake apartment"
+      },
+      "reqt": [
+        "stars",
+        "type",
+        "area"
+      ],
+      "fail_info": {
+        "name": "gonville hotel"
+      }
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu nướng",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "pricerange"
+      ],
+      "fail_info": {
+        "food": "unusual",
+        "area": "centre"
+      }
+    }
+  },
   "mul0517.json": {
     "attraction": {
       "info": {
@@ -51152,6 +53235,37 @@
         "time": "11:45"
       },
       "fail_book": {}
+    }
+  },
+  "mul1326.json": {
+    "hotel": {
+      "info": {
+        "parking": "yes",
+        "stars": "0",
+        "area": "ba đình"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "3",
+        "day": "thứ sáu",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "món trung quốc",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "address",
+        "pricerange"
+      ],
+      "fail_info": {
+        "food": "afghan",
+        "area": "centre"
+      }
     }
   },
   "pmul3644.json": {
@@ -52196,6 +54310,38 @@
       }
     }
   },
+  "mul0745.json": {
+    "hotel": {
+      "info": {
+        "type": "nhà nghỉ",
+        "parking": "yes",
+        "pricerange": "rẻ",
+        "area": "tây hồ"
+      },
+      "fail_info": {},
+      "book": {
+        "stay": "5",
+        "day": "thứ tư",
+        "invalid": false,
+        "people": "6"
+      },
+      "fail_book": {}
+    },
+    "train": {
+      "info": {
+        "leaveat": "23:00",
+        "destination": "hà nội",
+        "day": "thứ 4",
+        "departure": "hòa lạc"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "6"
+      },
+      "fail_book": {}
+    }
+  },
   "sng0651.json": {
     "restaurant": {
       "info": {
@@ -52558,32 +54704,6 @@
       }
     }
   },
-  "mul1635.json": {
-    "train": {
-      "info": {
-        "destination": "hà nội",
-        "day": "thứ 6",
-        "arriveby": "21:30",
-        "departure": "thái nguyên"
-      },
-      "reqt": [
-        "price",
-        "leaveat"
-      ],
-      "fail_info": {}
-    },
-    "restaurant": {
-      "info": {
-        "pricerange": "sang trọng",
-        "area": "cầu giấy"
-      },
-      "reqt": [
-        "postcode",
-        "phone"
-      ],
-      "fail_info": {}
-    }
-  },
   "pmul3786.json": {
     "hotel": {
       "info": {
@@ -52941,6 +55061,46 @@
       "fail_book": {}
     }
   },
+  "pmul2585.json": {
+    "taxi": {
+      "info": {
+        "leaveat": "09:45"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "area": "ba đình",
+        "internet": "yes",
+        "type": "nhà nghỉ",
+        "parking": "yes"
+      },
+      "reqt": [
+        "stars"
+      ],
+      "fail_info": {
+        "area": "centre",
+        "internet": "yes",
+        "type": "guesthouse",
+        "parking": "no"
+      }
+    },
+    "attraction": {
+      "info": {
+        "area": "ba đình"
+      },
+      "reqt": [
+        "phone",
+        "entrance fee",
+        "postcode"
+      ],
+      "fail_info": {}
+    }
+  },
   "pmul3392.json": {
     "train": {
       "info": {
@@ -53042,37 +55202,6 @@
         "postcode"
       ],
       "fail_info": {}
-    }
-  },
-  "pmul0874.json": {
-    "train": {
-      "info": {
-        "destination": "hà nội",
-        "day": "thứ 2",
-        "arriveby": "09:15",
-        "departure": "sân bay nội bài"
-      },
-      "fail_info": {},
-      "book": {
-        "invalid": false,
-        "people": "2"
-      },
-      "fail_book": {}
-    },
-    "restaurant": {
-      "info": {
-        "food": "món miền trung",
-        "pricerange": "sang trọng",
-        "area": "ba đình"
-      },
-      "reqt": [
-        "phone"
-      ],
-      "fail_info": {
-        "food": "hungarian",
-        "pricerange": "expensive",
-        "area": "centre"
-      }
     }
   },
   "pmul1828.json": {
@@ -53253,6 +55382,54 @@
         "invalid": true,
         "time": "14:15"
       }
+    }
+  },
+  "pmul4022.json": {
+    "taxi": {
+      "info": {
+        "arriveby": "19:00"
+      },
+      "reqt": [
+        "car type",
+        "phone"
+      ],
+      "fail_info": {}
+    },
+    "hotel": {
+      "info": {
+        "internet": "yes",
+        "pricerange": "sang trọng",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "fail_info": {
+        "internet": "yes",
+        "pricerange": "expensive",
+        "stars": "4",
+        "parking": "no"
+      },
+      "book": {
+        "people": "5",
+        "day": "thứ sáu",
+        "invalid": false,
+        "stay": "5"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "yixin"
+      },
+      "fail_info": {
+        "name": "peking restaurant"
+      },
+      "book": {
+        "people": "5",
+        "day": "thứ sáu",
+        "invalid": false,
+        "time": "19:00"
+      },
+      "fail_book": {}
     }
   },
   "mul2526.json": {
@@ -53589,6 +55766,33 @@
       "reqt": [
         "price",
         "trainid"
+      ],
+      "fail_info": {}
+    }
+  },
+  "mul0264.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 5",
+        "arriveby": "10:15",
+        "departure": "sân bay nội bài"
+      },
+      "reqt": [
+        "duration",
+        "price",
+        "leaveat"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "pricerange": "sang trọng",
+        "area": "đống đa"
+      },
+      "reqt": [
+        "phone",
+        "food"
       ],
       "fail_info": {}
     }
@@ -54741,6 +56945,35 @@
       "fail_info": {}
     }
   },
+  "pmul3145.json": {
+    "hotel": {
+      "info": {
+        "pricerange": "rẻ",
+        "stars": "4",
+        "parking": "yes"
+      },
+      "reqt": [
+        "area",
+        "internet",
+        "postcode"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "hàn quốc",
+        "pricerange": "rẻ"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "5",
+        "day": "thứ năm",
+        "invalid": false,
+        "time": "14:45"
+      },
+      "fail_book": {}
+    }
+  },
   "pmul4780.json": {
     "attraction": {
       "info": {
@@ -55579,6 +57812,31 @@
         "people": "5"
       },
       "fail_book": {}
+    }
+  },
+  "pmul1109.json": {
+    "attraction": {
+      "info": {
+        "type": "đại học",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "entrance fee"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "tp bắc ninh",
+        "day": "thứ 5",
+        "arriveby": "09:15",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "duration",
+        "leaveat"
+      ],
+      "fail_info": {}
     }
   },
   "sng01943.json": {
@@ -56483,6 +58741,62 @@
       "fail_book": {}
     }
   },
+  "pmul3907.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 5",
+        "arriveby": "11:45",
+        "departure": "tp phủ lý"
+      },
+      "reqt": [
+        "leaveat"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "la cà quán – núi trúc"
+      },
+      "fail_info": {},
+      "book": {
+        "people": "6",
+        "day": "thứ năm",
+        "invalid": false,
+        "time": "18:30"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul1256.json": {
+    "attraction": {
+      "info": {
+        "type": "bảo tàng",
+        "area": "ba đình"
+      },
+      "reqt": [
+        "entrance fee"
+      ],
+      "fail_info": {
+        "type": "entertainment",
+        "area": "centre"
+      }
+    },
+    "train": {
+      "info": {
+        "destination": "tp thanh hóa",
+        "day": "thứ 2",
+        "arriveby": "13:45",
+        "departure": "hà nội"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": false,
+        "people": "3"
+      },
+      "fail_book": {}
+    }
+  },
   "sng0482.json": {
     "restaurant": {
       "info": {
@@ -56563,33 +58877,6 @@
       },
       "reqt": [
         "car type",
-        "phone"
-      ],
-      "fail_info": {}
-    }
-  },
-  "pmul0692.json": {
-    "train": {
-      "info": {
-        "destination": "hà nội",
-        "day": "thứ 2",
-        "arriveby": "11:15",
-        "departure": "hòa lạc"
-      },
-      "fail_info": {},
-      "book": {
-        "invalid": false,
-        "people": "4"
-      },
-      "fail_book": {}
-    },
-    "restaurant": {
-      "info": {
-        "name": "quán cơm phở bình dân hằng"
-      },
-      "reqt": [
-        "postcode",
-        "food",
         "phone"
       ],
       "fail_info": {}
@@ -57660,6 +59947,34 @@
       }
     }
   },
+  "mul1661.json": {
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "chủ nhật",
+        "arriveby": "08:00",
+        "departure": "hòa lạc"
+      },
+      "reqt": [
+        "trainid"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "name": "thế giới hải sản"
+      },
+      "fail_info": {},
+      "book": {
+        "pre_invalid": true,
+        "time": "13:30",
+        "day": "chủ nhật",
+        "invalid": false,
+        "people": "2"
+      },
+      "fail_book": {}
+    }
+  },
   "mul2099.json": {
     "hotel": {
       "info": {
@@ -57997,38 +60312,6 @@
       "fail_book": {}
     }
   },
-  "pmul0522.json": {
-    "train": {
-      "info": {
-        "destination": "hà nội",
-        "day": "chủ nhật",
-        "arriveby": "09:00",
-        "departure": "tp bắc ninh"
-      },
-      "reqt": [
-        "leaveat",
-        "duration",
-        "price"
-      ],
-      "fail_info": {}
-    },
-    "restaurant": {
-      "info": {
-        "pricerange": "sang trọng",
-        "area": "cầu giấy"
-      },
-      "fail_info": {
-        "pricerange": "expensive",
-        "area": "south"
-      },
-      "book": {
-        "people": "5",
-        "day": "chủ nhật",
-        "invalid": true,
-        "time": "18:00"
-      }
-    }
-  },
   "mul0828.json": {
     "attraction": {
       "info": {
@@ -58343,6 +60626,39 @@
         "day": "chủ nhật",
         "invalid": false,
         "people": "1"
+      },
+      "fail_book": {}
+    }
+  },
+  "pmul4259.json": {
+    "train": {
+      "info": {
+        "destination": "tp bắc giang",
+        "day": "thứ 6",
+        "arriveby": "10:45",
+        "departure": "hà nội"
+      },
+      "reqt": [
+        "trainid"
+      ],
+      "fail_info": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "lẩu nướng",
+        "pricerange": "sang trọng",
+        "area": "ba đình"
+      },
+      "fail_info": {
+        "food": "corsica",
+        "pricerange": "expensive",
+        "area": "centre"
+      },
+      "book": {
+        "people": "3",
+        "day": "thứ năm",
+        "invalid": false,
+        "time": "17:30"
       },
       "fail_book": {}
     }
@@ -58797,6 +61113,33 @@
       "fail_info": {}
     }
   },
+  "pmul0713.json": {
+    "train": {
+      "info": {
+        "leaveat": "13:59",
+        "destination": "hà nội",
+        "day": "thứ 7",
+        "departure": "hạ long"
+      },
+      "fail_info": {},
+      "book": {
+        "invalid": true,
+        "people": "2"
+      },
+      "fail_book": {}
+    },
+    "restaurant": {
+      "info": {
+        "food": "món âu",
+        "pricerange": "sang trọng",
+        "area": "cầu giấy"
+      },
+      "reqt": [
+        "address"
+      ],
+      "fail_info": {}
+    }
+  },
   "pmul4001.json": {
     "attraction": {
       "info": {
@@ -58899,6 +61242,31 @@
         "people": "3"
       },
       "fail_book": {}
+    }
+  },
+  "mul1899.json": {
+    "attraction": {
+      "info": {
+        "type": "công viên"
+      },
+      "reqt": [
+        "phone",
+        "address",
+        "entrance fee"
+      ],
+      "fail_info": {}
+    },
+    "train": {
+      "info": {
+        "destination": "hà nội",
+        "day": "thứ 3",
+        "arriveby": "15:00",
+        "departure": "tp thanh hóa"
+      },
+      "reqt": [
+        "price"
+      ],
+      "fail_info": {}
     }
   },
   "sng02207.json": {

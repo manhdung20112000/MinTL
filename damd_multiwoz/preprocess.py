@@ -104,7 +104,7 @@ class DataPreprocessor(object):
     def __init__(self):
         self.nlp = spacy.load('en_core_web_sm')
         self.db = MultiWozDB(cfg.dbs)
-        data_path = 'data/multi-woz/viwoz_2k8_data.json'
+        data_path = 'data/multi-woz/viwoz_2k8_mapped_vi_states_cleaned_slots.json'
         archive = zipfile.ZipFile(data_path + '.zip', 'r')
         self.convlab_data = json.loads(archive.open(data_path.split('/')[-1], 'r').read().lower())
         self.delex_sg_valdict_path = 'data/multi-woz-processed/delex_single_valdict.json'

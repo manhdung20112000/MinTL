@@ -2368,6 +2368,81 @@
       }
     }
   },
+  "mul1013.json": {
+    "0": {
+      "attraction": {
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "inform": [
+          "area",
+          "choice"
+        ]
+      }
+    },
+    "2": {
+      "attraction": {
+        "inform": [
+          "type",
+          "area",
+          "choice"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "inform": [
+          "name"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "postcode",
+          "phone"
+        ],
+        "request": [
+          "area",
+          "type"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "area",
+          "type"
+        ]
+      }
+    },
+    "6": {
+      "hotel": {
+        "inform": [
+          "phone",
+          "choice"
+        ]
+      }
+    },
+    "7": {
+      "hotel": {
+        "select": [],
+        "inform": [
+          "name"
+        ]
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng0324.json": {
     "0": {
       "train": {
@@ -4678,6 +4753,39 @@
       }
     }
   },
+  "woz20528.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "phone",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "mul1595.json": {
     "0": {
       "restaurant": {
@@ -5586,6 +5694,67 @@
     "7": {
       "general": {
         "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "pmul3001.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "choice",
+          "area"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "type",
+          "area"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "2": {
+      "attraction": {
+        "inform": [
+          "address",
+          "phone",
+          "postcode"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "departure",
+          "day"
+        ],
+        "request": [
+          "leave",
+          "destination"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "time"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "general": {
         "bye": []
       }
     }
@@ -10393,6 +10562,67 @@
       }
     }
   },
+  "mul1147.json": {
+    "0": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "type",
+          "choice"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "inform": [
+          "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "2": {
+      "hotel": {
+        "inform": [
+          "stars",
+          "choice",
+          "type"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "name",
+          "stars",
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "inform": [
+          "phone",
+          "area",
+          "postcode"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng01964.json": {
     "0": {
       "restaurant": {
@@ -10634,6 +10864,76 @@
       "general": {
         "welcome": [],
         "bye": []
+      }
+    }
+  },
+  "pmul3998.json": {
+    "0": {
+      "restaurant": {
+        "request": [
+          "price"
+        ]
+      },
+      "general": {
+        "welcome": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "nooffer": []
+      }
+    },
+    "2": {
+      "restaurant": {
+        "select": [],
+        "inform": [
+          "choice",
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "name"
+        ]
+      }
+    },
+    "5": {
+      "attraction": {
+        "inform": [
+          "type",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "attraction": {
+        "inform": [
+          "postcode",
+          "phone"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    },
+    "8": {
+      "general": {
+        "welcome": []
       }
     }
   },
@@ -11516,6 +11816,156 @@
       }
     }
   },
+  "pmul2940.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "stars"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "offerbooked": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "phone",
+          "area",
+          "address",
+          "price",
+          "name"
+        ]
+      }
+    },
+    "5": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    },
+    "6": {
+      "taxi": {
+        "request": [
+          "destination",
+          "arrive"
+        ]
+      }
+    },
+    "7": {
+      "taxi": {
+        "inform": [
+          "phone",
+          "car"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul3830.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "id",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "price"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "request": [
+          "food",
+          "price"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "nooffer": [
+          "food",
+          "price"
+        ],
+        "request": [
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "restaurant": {
+        "select": [
+          "name",
+          "area"
+        ],
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "6": {
+      "restaurant": {
+        "recommend": [
+          "postcode",
+          "phone",
+          "name",
+          "address"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": []
+      }
+    }
+  },
   "woz20486.json": {
     "0": {
       "restaurant": {
@@ -11569,6 +12019,93 @@
     "1": {
       "general": {
         "welcome": []
+      }
+    }
+  },
+  "pmul1783.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "type"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "internet",
+          "type",
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "recommend": [
+          "phone",
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "offerbooked": [
+          "people",
+          "day",
+          "reference",
+          "name",
+          "stay"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "train": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "arrive",
+          "destination"
+        ],
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "6": {
+      "train": {
+        "inform": [
+          "id",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "7": {
+      "train": {
+        "inform": [
+          "arrive",
+          "price"
+        ]
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
       }
     }
   },
@@ -12030,6 +12567,66 @@
         "bye": []
       }
     }
+  },
+  "sng1100.json": {
+    "0": {
+      "attraction": {
+        "nooffer": []
+      }
+    },
+    "1": {
+      "attraction": {
+        "recommend": [
+          "address",
+          "name"
+        ],
+        "inform": [
+          "type",
+          "choice",
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "ssng0083.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "nobook": [],
+        "offerbooked": [
+          "reference",
+          "name"
+        ]
+      }
+    },
+    "3": {}
   },
   "sng01625.json": {
     "0": {
@@ -12798,6 +13395,65 @@
       }
     },
     "5": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul1740.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "type",
+          "name"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "phone"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "inform": [
+          "address"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "request": [
+          "leave",
+          "day"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "leave",
+          "arrive",
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "train": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
       "general": {
         "bye": []
       }
@@ -15542,6 +16198,101 @@
       }
     }
   },
+  "pmul1900.json": {
+    "0": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "nooffer": [
+          "destination",
+          "departure"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "arrive",
+          "id",
+          "destination"
+        ],
+        "offerbook": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "price"
+        ]
+      }
+    },
+    "6": {
+      "hotel": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "7": {
+      "hotel": {
+        "inform": [
+          "internet",
+          "parking",
+          "name",
+          "stars",
+          "price"
+        ]
+      }
+    },
+    "8": {
+      "hotel": {
+        "inform": [
+          "phone",
+          "postcode"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "9": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "sng0225.json": {
     "0": {
       "hospital": {
@@ -17062,6 +17813,73 @@
       }
     }
   },
+  "mul1771.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "destination",
+          "choice"
+        ],
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "leave",
+          "day",
+          "departure",
+          "choice"
+        ],
+        "select": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "offerbooked": [
+          "price",
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "attraction": {
+        "recommend": [
+          "area",
+          "name"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "type",
+          "name"
+        ]
+      }
+    },
+    "5": {
+      "attraction": {
+        "recommend": [
+          "postcode",
+          "name"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "sng02306.json": {
     "0": {
       "police": {
@@ -17265,6 +18083,81 @@
     "3": {
       "hotel": {
         "offerbook": []
+      }
+    }
+  },
+  "mul1751.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "departure",
+          "day",
+          "destination"
+        ],
+        "request": [
+          "day",
+          "leave"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "price"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "time",
+          "departure",
+          "destination"
+        ]
+      }
+    },
+    "5": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ]
+      }
+    },
+    "6": {
+      "attraction": {
+        "inform": [
+          "postcode",
+          "address",
+          "phone"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "8": {
+      "general": {
+        "welcome": [],
+        "bye": []
       }
     }
   },
@@ -20890,6 +21783,70 @@
       }
     }
   },
+  "pmul0802.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "offerbook": [
+          "name"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "phone",
+          "postcode"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "train": {
+        "offerbooked": [
+          "price",
+          "reference"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": []
+      }
+    }
+  },
   "pmul3089.json": {
     "0": {
       "train": {
@@ -22928,6 +23885,50 @@
       }
     }
   },
+  "woz20402.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "area",
+          "name"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "phone",
+          "address",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "inform": [
+          "food",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "ssng0269.json": {
     "0": {
       "hotel": {
@@ -24065,6 +25066,72 @@
       }
     },
     "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul3571.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "name"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "inform": [
+          "postcode",
+          "name",
+          "address"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "2": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "stars",
+          "price"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "recommend": [
+          "internet",
+          "parking",
+          "stars",
+          "price",
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
       "general": {
         "bye": []
       }
@@ -25218,14 +26285,14 @@
   },
   "pmul0154.json": {
     "0": {
-      "restaurant": {
-        "request": [
-          "food"
-        ]
-      },
       "hotel": {
         "inform": [
           "choice"
+        ]
+      },
+      "restaurant": {
+        "request": [
+          "food"
         ]
       }
     },
@@ -26327,6 +27394,44 @@
       }
     },
     "2": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "sng02239.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "nooffer": [
+          "food",
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "inform": [
+          "postcode"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
       "general": {
         "bye": []
       }
@@ -29561,67 +30666,6 @@
       }
     }
   },
-  "mul0911.json": {
-    "0": {
-      "attraction": {
-        "inform": [
-          "type",
-          "choice"
-        ],
-        "request": [
-          "area"
-        ]
-      }
-    },
-    "1": {
-      "attraction": {
-        "select": [],
-        "inform": [
-          "choice",
-          "name",
-          "area",
-          "type"
-        ]
-      }
-    },
-    "2": {
-      "attraction": {
-        "inform": [
-          "postcode",
-          "name",
-          "address",
-          "price"
-        ]
-      },
-      "restaurant": {
-        "inform": [
-          "name",
-          "area",
-          "address"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "3": {
-      "restaurant": {
-        "offerbooked": [
-          "reference"
-        ]
-      }
-    },
-    "4": {
-      "general": {
-        "welcome": []
-      }
-    },
-    "5": {
-      "general": {
-        "bye": []
-      }
-    }
-  },
   "pmul1513.json": {
     "0": {
       "train": {
@@ -32242,6 +33286,73 @@
       }
     }
   },
+  "mul2154.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "leave",
+          "destination"
+        ],
+        "request": [
+          "leave",
+          "people"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "day",
+          "departure",
+          "leave",
+          "destination"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "departure",
+          "id",
+          "leave",
+          "destination",
+          "arrive",
+          "price"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "hotel": {
+        "request": [
+          "day"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "inform": [
+          "internet",
+          "phone"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "pmul3183.json": {
     "0": {
       "hotel": {
@@ -32273,6 +33384,75 @@
           "name",
           "reference"
         ]
+      }
+    }
+  },
+  "pmul1618.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "destination",
+          "choice",
+          "day"
+        ],
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "leave",
+          "choice"
+        ],
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "offerbooked": [
+          "departure",
+          "day",
+          "price",
+          "id",
+          "leave",
+          "people"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "bye": []
       }
     }
   },
@@ -34486,6 +35666,66 @@
       }
     }
   },
+  "pmul2998.json": {
+    "0": {
+      "attraction": {
+        "request": [
+          "name"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "inform": [
+          "address",
+          "name",
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "recommend": [
+          "internet",
+          "name",
+          "area",
+          "parking"
+        ],
+        "select": []
+      }
+    },
+    "4": {
+      "hotel": {
+        "nooffer": [
+          "stars"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "hotel": {
+        "inform": [
+          "name",
+          "area",
+          "stars"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "mul2133.json": {
     "0": {
       "hotel": {
@@ -35198,6 +36438,78 @@
       }
     },
     "1": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul3130.json": {
+    "0": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "select": [],
+        "inform": [
+          "choice",
+          "price",
+          "type",
+          "area",
+          "stars"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "inform": [
+          "name",
+          "address"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "type",
+          "area",
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "nooffer": [
+          "area"
+        ],
+        "select": [
+          "internet"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "nooffer": [
+          "area"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "6": {
+      "hotel": {
+        "nooffer": []
+      }
+    },
+    "7": {
       "general": {
         "bye": []
       }
@@ -36157,6 +37469,66 @@
       }
     }
   },
+  "pmul1010.json": {
+    "0": {
+      "train": {
+        "request": [
+          "day",
+          "leave"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "time"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "arrive"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "name",
+          "type"
+        ]
+      }
+    },
+    "5": {
+      "attraction": {
+        "inform": [
+          "price"
+        ]
+      }
+    },
+    "6": {
+      "attraction": {
+        "inform": [
+          "phone"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "sng1381.json": {
     "0": {
       "train": {
@@ -36491,6 +37863,37 @@
         "request": [
           "price"
         ]
+      }
+    }
+  },
+  "pmul4261.json": {
+    "0": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "select": [],
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "2": {},
+    "3": {
+      "train": {
+        "nooffer": [
+          "departure",
+          "destination"
+        ]
+      },
+      "general": {
+        "reqmore": []
       }
     }
   },
@@ -38801,6 +40204,72 @@
       }
     }
   },
+  "pmul4334.json": {
+    "0": {
+      "hotel": {
+        "select": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "nooffer": [
+          "food",
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "inform": [
+          "price",
+          "name",
+          "food"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "6": {
+      "taxi": {
+        "inform": [
+          "phone",
+          "car"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "pmul1794.json": {
     "0": {
       "train": {
@@ -39917,6 +41386,118 @@
       }
     }
   },
+  "pmul0115.json": {
+    "0": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "nooffer": [
+          "food"
+        ],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "recommend": [
+          "name",
+          "food"
+        ],
+        "offerbook": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "offerbook": []
+      }
+    },
+    "5": {
+      "general": {
+        "welcome": []
+      }
+    },
+    "6": {
+      "hotel": {
+        "offerbooked": [
+          "day",
+          "time",
+          "people",
+          "reference"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "8": {
+      "hotel": {
+        "nooffer": [
+          "type"
+        ],
+        "select": [
+          "type"
+        ]
+      }
+    },
+    "9": {
+      "hotel": {
+        "offerbook": []
+      }
+    },
+    "10": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "choice",
+          "type"
+        ],
+        "offerbook": []
+      }
+    },
+    "11": {
+      "hotel": {
+        "inform": [
+          "internet",
+          "parking",
+          "name",
+          "stars",
+          "address"
+        ],
+        "offerbook": []
+      }
+    },
+    "12": {
+      "general": {
+        "welcome": [],
+        "bye": [],
+        "reqmore": []
+      }
+    }
+  },
   "pmul2216.json": {
     "0": {
       "attraction": {
@@ -39987,6 +41568,39 @@
     "3": {
       "general": {
         "bye": []
+      }
+    }
+  },
+  "woz20647.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "area",
+          "food",
+          "name"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "address",
+          "phone",
+          "name"
+        ]
+      }
+    },
+    "3": {
+      "general": {
+        "welcome": []
       }
     }
   },
@@ -43320,111 +44934,6 @@
       }
     }
   },
-  "pmul4184.json": {
-    "0": {
-      "restaurant": {
-        "inform": [
-          "choice"
-        ],
-        "request": [
-          "area"
-        ]
-      }
-    },
-    "1": {
-      "restaurant": {
-        "request": [
-          "price"
-        ]
-      }
-    },
-    "2": {
-      "restaurant": {
-        "inform": [
-          "postcode",
-          "phone",
-          "price",
-          "area",
-          "name",
-          "food",
-          "address"
-        ]
-      }
-    },
-    "3": {
-      "restaurant": {
-        "offerbooked": [
-          "reference"
-        ]
-      }
-    },
-    "4": {
-      "general": {
-        "reqmore": []
-      }
-    },
-    "5": {
-      "taxi": {
-        "request": [
-          "destination",
-          "departure"
-        ]
-      }
-    },
-    "6": {
-      "taxi": {
-        "request": [
-          "departure"
-        ]
-      }
-    },
-    "7": {
-      "taxi": {
-        "request": [
-          "destination"
-        ]
-      }
-    },
-    "8": {
-      "taxi": {
-        "request": [
-          "leave",
-          "destination"
-        ]
-      }
-    },
-    "9": {
-      "taxi": {
-        "inform": [
-          "destination",
-          "departure",
-          "arrive"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "10": {},
-    "11": {
-      "taxi": {
-        "inform": [
-          "phone",
-          "car"
-        ]
-      }
-    },
-    "12": {
-      "general": {
-        "reqmore": []
-      }
-    },
-    "13": {
-      "general": {
-        "bye": []
-      }
-    }
-  },
   "pmul3876.json": {
     "0": {
       "train": {
@@ -45167,6 +46676,57 @@
       }
     },
     "3": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "woz20469.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "food",
+          "price",
+          "choice"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "recommend": [
+          "name",
+          "price",
+          "food"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "address",
+          "area"
+        ]
+      },
       "general": {
         "reqmore": []
       }
@@ -47767,6 +49327,59 @@
       }
     }
   },
+  "pmul1394.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "day",
+          "departure",
+          "choice"
+        ],
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "leave",
+          "arrive"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "address"
+        ]
+      }
+    },
+    "5": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "woz20189.json": {
     "0": {
       "restaurant": {
@@ -48009,6 +49622,46 @@
       }
     },
     "6": {}
+  },
+  "pmul3191.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "recommend": [
+          "name"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "general": {
+        "bye": []
+      }
+    }
   },
   "woz20376.json": {
     "0": {
@@ -49303,6 +50956,28 @@
       }
     }
   },
+  "woz20203.json": {
+    "0": {
+      "restaurant": {
+        "inform": [
+          "name"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "food",
+          "phone"
+        ]
+      }
+    },
+    "2": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng0696.json": {
     "0": {
       "restaurant": {
@@ -50431,6 +52106,51 @@
       }
     },
     "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "sng0473.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "name",
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "nobook": [],
+        "request": [
+          "day",
+          "time"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "offerbooked": [
+          "day",
+          "people",
+          "time",
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
       "general": {
         "bye": []
       }
@@ -52185,6 +53905,78 @@
     "2": {
       "general": {
         "bye": []
+      }
+    }
+  },
+  "pmul1960.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "choice"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "leave",
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "time",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "hotel": {
+        "request": [
+          "area",
+          "price"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "request": [
+          "stars"
+        ]
+      }
+    },
+    "6": {
+      "hotel": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "7": {
+      "train": {
+        "inform": [
+          "leave",
+          "time"
+        ]
       }
     }
   },
@@ -54011,6 +55803,33 @@
       }
     }
   },
+  "sng02250.json": {
+    "0": {
+      "restaurant": {
+        "inform": [
+          "choice",
+          "food"
+        ],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "address",
+          "name",
+          "phone"
+        ]
+      }
+    },
+    "2": {
+      "general": {
+        "reqmore": []
+      }
+    }
+  },
   "pmul0091.json": {
     "0": {
       "hotel": {
@@ -55112,6 +56931,78 @@
       }
     },
     "7": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "sng02042.json": {
+    "0": {
+      "train": {
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "leave",
+          "id"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "request": [
+          "day"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "leave",
+          "id"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "arrive",
+          "id",
+          "destination"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "price",
+          "departure",
+          "day",
+          "destination",
+          "arrive",
+          "id",
+          "leave"
+        ]
+      }
+    },
+    "6": {
+      "train": {
+        "offerbooked": [
+          "price",
+          "reference"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "8": {
       "general": {
         "bye": []
       }
@@ -56661,6 +58552,97 @@
       }
     }
   },
+  "pmul2867.json": {
+    "0": {
+      "hotel": {
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "nooffer": [
+          "area",
+          "stars",
+          "parking",
+          "type"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "2": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "hotel": {
+        "nooffer": [],
+        "request": [
+          "stars"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "6": {
+      "hotel": {
+        "inform": [
+          "type",
+          "name",
+          "area"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "attraction": {
+        "inform": [
+          "name",
+          "phone",
+          "address",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "8": {
+      "taxi": {
+        "inform": [
+          "car",
+          "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "9": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng0420.json": {
     "0": {
       "train": {
@@ -57205,6 +59187,67 @@
       }
     }
   },
+  "pmul0813.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "destination",
+          "choice"
+        ],
+        "request": [
+          "arrive",
+          "leave",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "inform": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng01981.json": {
     "0": {
       "taxi": {
@@ -57390,6 +59433,73 @@
     "8": {
       "general": {
         "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "mul2090.json": {
+    "0": {
+      "hotel": {
+        "recommend": [
+          "name",
+          "area",
+          "type"
+        ],
+        "inform": [
+          "choice"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "leave",
+          "arrive",
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "time",
+          "id",
+          "price"
+        ]
+      }
+    },
+    "6": {
+      "general": {
         "bye": []
       }
     }
@@ -57831,6 +59941,85 @@
       }
     },
     "4": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul4157.json": {
+    "0": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "food",
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "arrive",
+          "id",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "price"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "nooffer": [
+          "area"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "nooffer": [
+          "price",
+          "area",
+          "food"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "inform": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    },
+    "8": {
       "general": {
         "bye": []
       }
@@ -59381,6 +61570,29 @@
       }
     }
   },
+  "sng01387.json": {
+    "0": {
+      "taxi": {
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "1": {
+      "taxi": {
+        "inform": [
+          "phone",
+          "car"
+        ]
+      }
+    },
+    "2": {},
+    "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng01254.json": {
     "0": {
       "hospital": {
@@ -59730,6 +61942,44 @@
       "general": {
         "welcome": [],
         "bye": []
+      }
+    }
+  },
+  "pmul3151.json": {
+    "0": {
+      "hotel": {
+        "select": [],
+        "inform": [
+          "choice",
+          "type",
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "nooffer": [
+          "area",
+          "type"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "nooffer": [],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
       }
     }
   },
@@ -60427,6 +62677,93 @@
       }
     },
     "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul3887.json": {
+    "0": {
+      "restaurant": {
+        "inform": [
+          "area"
+        ],
+        "request": [
+          "food",
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "area",
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "price",
+          "name",
+          "area",
+          "food"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "request": [
+          "day",
+          "time"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "offerbooked": [
+          "time",
+          "day"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "train": {
+        "inform": [
+          "arrive",
+          "id"
+        ],
+        "offerbook": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "train": {
+        "inform": [
+          "time",
+          "leave"
+        ]
+      }
+    },
+    "8": {
       "general": {
         "bye": []
       }
@@ -61338,6 +63675,49 @@
     "6": {
       "general": {
         "bye": []
+      }
+    }
+  },
+  "pmul1123.json": {
+    "0": {
+      "train": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "day"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "leave",
+          "day"
+        ],
+        "offerbook": []
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "departure",
+          "id",
+          "day",
+          "destination",
+          "arrive"
+        ]
       }
     }
   },
@@ -62821,6 +65201,45 @@
       }
     }
   },
+  "sng01734.json": {
+    "0": {
+      "train": {
+        "request": [
+          "day"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "id",
+          "leave"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "mul2549.json": {
     "0": {
       "hotel": {
@@ -64292,6 +66711,63 @@
       }
     }
   },
+  "pmul2150.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ]
+      }
+    },
+    "2": {
+      "attraction": {
+        "inform": [
+          "type",
+          "price"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "nooffer": [
+          "area"
+        ],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "recommend": [
+          "name"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "ssng0070.json": {
     "0": {
       "restaurant": {
@@ -64904,6 +67380,40 @@
     },
     "8": {
       "general": {
+        "bye": []
+      }
+    }
+  },
+  "woz20173.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food",
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "area",
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "address",
+          "phone"
+        ]
+      }
+    },
+    "3": {
+      "general": {
+        "welcome": [],
         "bye": []
       }
     }
@@ -65652,6 +68162,130 @@
       }
     }
   },
+  "mul1356.json": {
+    "0": {
+      "hotel": {
+        "nooffer": [
+          "area",
+          "stars",
+          "type"
+        ],
+        "request": [
+          "area",
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "area",
+          "food",
+          "name"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "offerbook": []
+      },
+      "hotel": {
+        "inform": [
+          "type",
+          "stars"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "inform": [
+          "price",
+          "internet",
+          "name",
+          "postcode"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "restaurant": {
+        "recommend": [
+          "name",
+          "area"
+        ]
+      }
+    },
+    "6": {
+      "restaurant": {
+        "nobook": [],
+        "request": [
+          "day",
+          "time"
+        ]
+      }
+    },
+    "7": {
+      "restaurant": {
+        "inform": [
+          "area",
+          "name",
+          "food"
+        ],
+        "offerbook": []
+      }
+    },
+    "8": {
+      "restaurant": {
+        "nobook": [],
+        "request": [
+          "time"
+        ]
+      }
+    },
+    "9": {
+      "restaurant": {
+        "offerbooked": [
+          "name",
+          "reference"
+        ]
+      }
+    },
+    "10": {
+      "taxi": {
+        "request": [
+          "leave",
+          "arrive"
+        ]
+      }
+    },
+    "11": {
+      "taxi": {
+        "inform": [
+          "car",
+          "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "12": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "sng0353.json": {
     "0": {
       "train": {
@@ -65795,6 +68429,115 @@
     "4": {
       "general": {
         "bye": []
+      }
+    }
+  },
+  "mul0453.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "area",
+          "choice"
+        ],
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "select": [
+          "type"
+        ],
+        "inform": [
+          "type",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "2": {
+      "attraction": {
+        "inform": [
+          "name",
+          "price"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "nooffer": [
+          "type",
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "area",
+          "name",
+          "price"
+        ]
+      }
+    },
+    "5": {
+      "attraction": {
+        "inform": [
+          "address",
+          "name",
+          "phone"
+        ]
+      }
+    },
+    "6": {
+      "train": {
+        "request": [
+          "day",
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "7": {
+      "train": {
+        "inform": [
+          "choice",
+          "destination"
+        ],
+        "request": [
+          "arrive"
+        ]
+      }
+    },
+    "8": {
+      "train": {
+        "inform": [
+          "choice",
+          "arrive"
+        ],
+        "select": []
+      }
+    },
+    "9": {
+      "train": {
+        "inform": [
+          "departure",
+          "id",
+          "leave",
+          "price",
+          "time"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "10": {
+      "general": {
+        "welcome": []
       }
     }
   },
@@ -66481,6 +69224,82 @@
       }
     }
   },
+  "mul0662.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "id",
+          "leave",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "leave",
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "offerbooked": [
+          "id",
+          "people",
+          "reference"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "nooffer": [
+          "area",
+          "type"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "inform": [
+          "area",
+          "internet",
+          "name"
+        ]
+      }
+    },
+    "6": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "mul2175.json": {
     "0": {
       "hotel": {
@@ -66868,6 +69687,86 @@
       }
     }
   },
+  "pmul4153.json": {
+    "0": {
+      "restaurant": {
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "name",
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "address",
+          "phone",
+          "area",
+          "price",
+          "food"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "area",
+          "choice",
+          "price",
+          "type"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "nooffer": [
+          "price"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "inform": [
+          "type",
+          "stars",
+          "name",
+          "area",
+          "price"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": []
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "woz20129.json": {
     "0": {
       "restaurant": {
@@ -66893,83 +69792,6 @@
       }
     },
     "2": {
-      "general": {
-        "welcome": [],
-        "bye": []
-      }
-    }
-  },
-  "pmul4775.json": {
-    "0": {
-      "restaurant": {
-        "inform": [
-          "choice"
-        ]
-      }
-    },
-    "1": {
-      "restaurant": {
-        "inform": [
-          "food"
-        ]
-      }
-    },
-    "2": {
-      "restaurant": {
-        "recommend": [
-          "food",
-          "name"
-        ],
-        "inform": [
-          "phone"
-        ],
-        "offerbook": []
-      }
-    },
-    "3": {
-      "restaurant": {
-        "offerbooked": [
-          "reference"
-        ]
-      }
-    },
-    "4": {
-      "train": {
-        "request": [
-          "destination"
-        ]
-      }
-    },
-    "5": {
-      "train": {
-        "inform": [
-          "arrive",
-          "id"
-        ],
-        "offerbook": []
-      }
-    },
-    "6": {
-      "train": {
-        "inform": [
-          "time"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "7": {
-      "train": {
-        "inform": [
-          "leave"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "8": {
       "general": {
         "welcome": [],
         "bye": []
@@ -69890,6 +72712,77 @@
       }
     }
   },
+  "pmul3208.json": {
+    "0": {
+      "train": {
+        "offerbook": []
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "offerbook": [
+          "id"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "train": {
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "5": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "area",
+          "price"
+        ]
+      }
+    },
+    "6": {
+      "attraction": {
+        "inform": [
+          "type",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "sng02117.json": {
     "0": {
       "police": {
@@ -72054,6 +74947,180 @@
       }
     }
   },
+  "pmul2860.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "area",
+          "type",
+          "choice"
+        ],
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "inform": [
+          "type",
+          "choice",
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "attraction": {
+        "recommend": [
+          "name",
+          "address"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "type",
+          "area"
+        ],
+        "request": [
+          "parking",
+          "area",
+          "internet",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "hotel": {
+        "select": [],
+        "inform": [
+          "choice",
+          "price",
+          "type",
+          "stars"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "stars",
+          "type",
+          "area"
+        ],
+        "offerbook": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "hotel": {
+        "inform": [
+          "postcode"
+        ]
+      }
+    },
+    "7": {
+      "taxi": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "8": {
+      "hotel": {
+        "inform": [
+          "name"
+        ]
+      }
+    },
+    "9": {
+      "taxi": {
+        "inform": [
+          "car",
+          "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "10": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "pmul0849.json": {
+    "0": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "food",
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "address",
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "departure",
+          "leave",
+          "id",
+          "destination",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "4": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "id",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "mul0569.json": {
     "0": {
       "train": {
@@ -73474,6 +76541,82 @@
     },
     "3": {
       "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul0617.json": {
+    "0": {
+      "train": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "offerbook": [],
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "departure",
+          "leave",
+          "destination",
+          "arrive",
+          "id"
+        ],
+        "select": [],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "recommend": [
+          "name",
+          "address"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "restaurant": {
+        "offerbooked": [
+          "name",
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
         "bye": []
       }
     }
@@ -75750,6 +78893,44 @@
       }
     }
   },
+  "woz20334.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "inform": [
+          "price",
+          "food"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "food",
+          "area",
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "phone",
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng01355.json": {
     "0": {
       "police": {
@@ -77048,6 +80229,93 @@
       }
     }
   },
+  "sng1231.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "day",
+          "destination",
+          "arrive",
+          "leave"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "nooffer": [
+          "departure",
+          "leave",
+          "destination",
+          "day"
+        ],
+        "request": [
+          "leave",
+          "day"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "leave"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "destination",
+          "departure",
+          "day",
+          "leave",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "train": {
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "7": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "id",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng01793.json": {
     "0": {
       "hospital": {
@@ -77401,6 +80669,94 @@
     "8": {
       "general": {
         "welcome": []
+      }
+    }
+  },
+  "pmul1395.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "1": {
+      "train": {
+        "nooffer": [
+          "day"
+        ]
+      }
+    },
+    "2": {},
+    "3": {
+      "train": {
+        "inform": [
+          "day",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "4": {
+      "train": {
+        "offerbook": [],
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "id",
+          "price"
+        ]
+      }
+    },
+    "6": {
+      "attraction": {
+        "inform": [
+          "type",
+          "area",
+          "choice"
+        ],
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "7": {
+      "attraction": {
+        "inform": [
+          "type",
+          "area"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "8": {
+      "attraction": {
+        "recommend": [
+          "name",
+          "price",
+          "address"
+        ]
+      }
+    },
+    "9": {
+      "general": {
+        "welcome": [],
+        "reqmore": []
+      }
+    },
+    "10": {
+      "general": {
+        "bye": []
       }
     }
   },
@@ -79145,6 +82501,57 @@
       }
     }
   },
+  "mul0345.json": {
+    "0": {
+      "train": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "leave",
+          "choice"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "general": {
+        "bye": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "address",
+          "food",
+          "phone",
+          "price"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "offerbooked": [
+          "reference",
+          "people",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng01661.json": {
     "0": {
       "train": {
@@ -79725,6 +83132,79 @@
       }
     },
     "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul4405.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "type",
+          "parking"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "name"
+        ],
+        "offerbook": [],
+        "request": [
+          "stay",
+          "day",
+          "people"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "offerbooked": [
+          "people",
+          "day",
+          "stay",
+          "reference",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "train": {
+        "request": [
+          "day"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "leave",
+          "day"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "offerbooked": [
+          "leave",
+          "reference",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
       "general": {
         "bye": []
       }
@@ -81292,6 +84772,72 @@
       }
     }
   },
+  "pmul1643.json": {
+    "0": {
+      "train": {
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "offerbooked": [
+          "people",
+          "id",
+          "reference",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "hotel": {
+        "inform": [
+          "internet",
+          "name",
+          "parking",
+          "stars"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "7": {}
+  },
   "pmul0210.json": {
     "0": {
       "hotel": {
@@ -82780,6 +86326,65 @@
       }
     }
   },
+  "pmul2165.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "choice",
+          "price"
+        ],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "choice"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "inform": [
+          "postcode",
+          "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "name",
+          "address"
+        ]
+      }
+    },
+    "5": {},
+    "6": {
+      "restaurant": {
+        "inform": [
+          "postcode",
+          "address"
+        ]
+      }
+    },
+    "7": {}
+  },
   "pmul4378.json": {
     "0": {},
     "1": {
@@ -83358,6 +86963,71 @@
     },
     "6": {
       "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul4666.json": {
+    "0": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "recommend": [
+          "name",
+          "area"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "hotel": {
+        "inform": [
+          "name",
+          "stars",
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "inform": [
+          "postcode",
+          "phone",
+          "address"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "attraction": {
+        "recommend": [
+          "name",
+          "choice",
+          "price"
+        ],
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "welcome": [],
         "bye": []
       }
     }
@@ -84097,32 +87767,6 @@
       }
     },
     "3": {
-      "general": {
-        "bye": []
-      }
-    }
-  },
-  "sng0453.json": {
-    "0": {
-      "restaurant": {
-        "inform": [
-          "price",
-          "area",
-          "name"
-        ]
-      }
-    },
-    "1": {
-      "restaurant": {
-        "inform": [
-          "food",
-          "address",
-          "postcode",
-          "name"
-        ]
-      }
-    },
-    "2": {
       "general": {
         "bye": []
       }
@@ -86847,6 +90491,36 @@
     },
     "1": {}
   },
+  "woz20147.json": {
+    "0": {
+      "restaurant": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "food",
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "food",
+          "price",
+          "name",
+          "area"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    }
+  },
   "sng02246.json": {
     "0": {
       "police": {
@@ -87117,6 +90791,42 @@
       }
     }
   },
+  "pmul0681.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food",
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "area",
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "offerbooked": [
+          "name",
+          "reference"
+        ]
+      }
+    },
+    "3": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "pmul3295.json": {
     "0": {
       "hotel": {
@@ -87204,6 +90914,85 @@
     "10": {
       "general": {
         "welcome": []
+      }
+    }
+  },
+  "pmul0932.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "arrive",
+          "leave",
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "leave",
+          "departure"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "id",
+          "leave"
+        ],
+        "select": []
+      }
+    },
+    "3": {
+      "train": {
+        "offerbook": []
+      }
+    },
+    "4": {
+      "train": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "nooffer": [
+          "area",
+          "food"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "restaurant": {
+        "inform": [
+          "food",
+          "area",
+          "name",
+          "price",
+          "choice"
+        ],
+        "offerbook": []
+      }
+    },
+    "7": {
+      "restaurant": {
+        "inform": [
+          "postcode"
+        ]
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
       }
     }
   },
@@ -88868,6 +92657,60 @@
       }
     }
   },
+  "pmul1098.json": {
+    "0": {
+      "train": {
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "leave",
+          "arrive"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "id",
+          "leave"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "inform": [
+          "name",
+          "area"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "name",
+          "price",
+          "phone",
+          "address"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng02343.json": {
     "0": {
       "police": {
@@ -89183,6 +93026,41 @@
       }
     },
     "2": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "woz20132.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "price",
+          "name",
+          "area",
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "phone"
+        ]
+      },
       "general": {
         "reqmore": []
       }
@@ -89576,6 +93454,54 @@
     },
     "2": {}
   },
+  "mul2161.json": {
+    "0": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "departure",
+          "arrive",
+          "leave",
+          "destination"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "offerbooked": [
+          "id",
+          "reference",
+          "arrive",
+          "people",
+          "leave",
+          "price"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "phone",
+          "name",
+          "address"
+        ],
+        "offerbook": []
+      }
+    },
+    "4": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng02178.json": {
     "0": {
       "police": {
@@ -89933,124 +93859,6 @@
       }
     },
     "2": {
-      "general": {
-        "bye": []
-      }
-    }
-  },
-  "sng1214.json": {
-    "0": {
-      "attraction": {
-        "inform": [
-          "area",
-          "choice",
-          "price",
-          "type"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "1": {
-      "attraction": {
-        "inform": [
-          "name",
-          "phone"
-        ]
-      }
-    },
-    "2": {
-      "general": {
-        "bye": []
-      }
-    }
-  },
-  "pmul0666.json": {
-    "0": {
-      "train": {
-        "inform": [
-          "choice"
-        ],
-        "request": [
-          "destination"
-        ]
-      }
-    },
-    "1": {
-      "train": {
-        "request": [
-          "leave",
-          "day"
-        ]
-      }
-    },
-    "2": {
-      "train": {
-        "inform": [
-          "leave"
-        ],
-        "offerbook": []
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "3": {
-      "restaurant": {
-        "recommend": [
-          "food",
-          "phone",
-          "area",
-          "name",
-          "price"
-        ]
-      }
-    },
-    "4": {
-      "train": {
-        "inform": [
-          "id",
-          "price"
-        ]
-      }
-    },
-    "5": {
-      "restaurant": {
-        "inform": [
-          "name"
-        ],
-        "request": [
-          "name"
-        ]
-      }
-    },
-    "6": {
-      "train": {
-        "inform": [
-          "id",
-          "leave",
-          "destination",
-          "arrive"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "7": {
-      "restaurant": {
-        "inform": [
-          "price",
-          "name",
-          "area"
-        ],
-        "request": [
-          "name"
-        ]
-      }
-    },
-    "8": {
       "general": {
         "bye": []
       }
@@ -91199,98 +95007,6 @@
     },
     "5": {
       "general": {
-        "bye": []
-      }
-    }
-  },
-  "mul0022.json": {
-    "0": {
-      "restaurant": {
-        "inform": [
-          "food",
-          "name"
-        ],
-        "offerbook": []
-      }
-    },
-    "1": {
-      "restaurant": {
-        "request": [
-          "area"
-        ]
-      }
-    },
-    "2": {
-      "restaurant": {
-        "nobook": [],
-        "request": [
-          "food"
-        ]
-      }
-    },
-    "3": {
-      "restaurant": {
-        "offerbooked": [
-          "name",
-          "reference"
-        ]
-      },
-      "hotel": {
-        "inform": [
-          "area",
-          "choice",
-          "type"
-        ],
-        "select": []
-      }
-    },
-    "4": {
-      "hotel": {
-        "nobook": [],
-        "request": [
-          "stay",
-          "day"
-        ]
-      }
-    },
-    "5": {
-      "hotel": {
-        "offerbooked": [
-          "reference"
-        ]
-      }
-    },
-    "6": {
-      "taxi": {
-        "inform": []
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "7": {
-      "taxi": {
-        "inform": [
-          "phone",
-          "car"
-        ]
-      }
-    },
-    "8": {
-      "general": {
-        "reqmore": []
-      }
-    },
-    "9": {
-      "general": {
-        "offerbooked": [
-          "name"
-        ]
-      }
-    },
-    "10": {
-      "general": {
-        "welcome": [],
         "bye": []
       }
     }
@@ -92639,6 +96355,57 @@
       }
     }
   },
+  "sng0341.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "departure",
+          "choice"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "destination",
+          "arrive",
+          "id",
+          "departure",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "price",
+          "time"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "4": {
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "pmul0845.json": {
     "0": {
       "restaurant": {
@@ -93150,6 +96917,48 @@
     "4": {
       "general": {
         "bye": []
+      }
+    }
+  },
+  "pmul4892.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "area",
+          "type"
+        ],
+        "request": [
+          "parking",
+          "internet"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "arrive",
+          "destination",
+          "departure",
+          "id",
+          "leave"
+        ],
+        "offerbook": []
       }
     }
   },
@@ -94016,40 +97825,6 @@
       }
     }
   },
-  "sng02150.json": {
-    "0": {
-      "restaurant": {
-        "inform": [
-          "choice"
-        ],
-        "request": [
-          "food"
-        ]
-      }
-    },
-    "1": {
-      "restaurant": {
-        "recommend": [
-          "food",
-          "name"
-        ],
-        "offerbook": []
-      }
-    },
-    "2": {
-      "restaurant": {
-        "inform": [
-          "address"
-        ]
-      }
-    },
-    "3": {
-      "general": {
-        "reqmore": []
-      }
-    },
-    "4": {}
-  },
   "sng0020.json": {
     "0": {
       "taxi": {
@@ -94281,6 +98056,48 @@
       }
     }
   },
+  "pmul1819.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "area",
+          "type"
+        ],
+        "request": [
+          "parking",
+          "internet"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "arrive",
+          "destination",
+          "departure",
+          "id",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    }
+  },
   "woz20101.json": {
     "0": {
       "restaurant": {
@@ -94303,6 +98120,60 @@
       "general": {
         "welcome": [],
         "bye": []
+      }
+    }
+  },
+  "pmul3383.json": {
+    "0": {
+      "attraction": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "nooffer": [
+          "area",
+          "stars"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "recommend": [
+          "name",
+          "area"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "general": {
+        "welcome": []
       }
     }
   },
@@ -95842,6 +99713,45 @@
       }
     }
   },
+  "pmul3452.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "choice"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "select": [
+          "leave",
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "time",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    }
+  },
   "sng01670.json": {
     "0": {
       "hospital": {
@@ -96358,6 +100268,72 @@
       }
     }
   },
+  "pmul0450.json": {
+    "0": {
+      "hotel": {
+        "nooffer": [
+          "type"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "recommend": [
+          "area"
+        ],
+        "nooffer": [
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "inform": [
+          "type",
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "offerbook": [],
+        "request": [
+          "people",
+          "time"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "sng01339.json": {
     "0": {
       "train": {
@@ -96464,6 +100440,62 @@
     },
     "7": {
       "general": {
+        "bye": []
+      }
+    }
+  },
+  "woz20284.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "food",
+          "area",
+          "choice"
+        ],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "price",
+          "area",
+          "food",
+          "name"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "inform": [
+          "address",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "inform": [
+          "food"
+        ]
+      }
+    },
+    "5": {
+      "general": {
+        "welcome": [],
         "bye": []
       }
     }
@@ -98157,6 +102189,36 @@
       }
     }
   },
+  "woz20225.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "food",
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "address",
+          "name",
+          "phone"
+        ]
+      }
+    },
+    "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng01480.json": {
     "0": {
       "taxi": {
@@ -98199,6 +102261,77 @@
       }
     },
     "2": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "mul0087.json": {
+    "0": {
+      "hotel": {
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "internet",
+          "parking",
+          "stars",
+          "name",
+          "address"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "hotel": {
+        "nobook": [],
+        "request": [
+          "stay",
+          "day"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "recommend": [
+          "price",
+          "name",
+          "address"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "request": [
+          "time"
+        ]
+      }
+    },
+    "6": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
       "general": {
         "bye": []
       }
@@ -101906,6 +106039,73 @@
       }
     }
   },
+  "mul1970.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "day",
+          "destination"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "leave",
+          "arrive",
+          "choice",
+          "destination"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "price"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "inform": [
+          "choice",
+          "type"
+        ],
+        "request": [
+          "area",
+          "type"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "type",
+          "area",
+          "choice"
+        ]
+      }
+    },
+    "5": {
+      "attraction": {
+        "inform": [
+          "phone"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "welcome": []
+      }
+    }
+  },
   "mul0720.json": {
     "0": {
       "hotel": {
@@ -102518,6 +106718,66 @@
       }
     },
     "3": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul0649.json": {
+    "0": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "area",
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "area",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "2": {
+      "restaurant": {
+        "offerbooked": [
+          "time",
+          "name",
+          "reference",
+          "people",
+          "day"
+        ]
+      },
+      "train": {
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "leave",
+          "arrive",
+          "destination"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "time",
+          "price"
+        ]
+      }
+    },
+    "5": {
       "general": {
         "bye": []
       }
@@ -103315,6 +107575,51 @@
       }
     }
   },
+  "pmul1882.json": {
+    "0": {
+      "hotel": {
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "nooffer": [
+          "type",
+          "internet",
+          "stars"
+        ],
+        "select": [
+          "stars"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "nooffer": [],
+        "request": [
+          "stars"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "nooffer": [],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "area"
+        ]
+      }
+    }
+  },
   "pmul2823.json": {
     "0": {
       "hotel": {
@@ -103357,6 +107662,76 @@
         "inform": [
           "postcode",
           "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "taxi": {
+        "inform": [
+          "phone",
+          "car"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "pmul2387.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "area",
+          "choice"
+        ],
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "select": [
+          "type"
+        ],
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "2": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "type",
+          "choice",
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "offerbook": []
+      },
+      "restaurant": {
+        "recommend": [
+          "name",
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
         ]
       },
       "general": {
@@ -104887,6 +109262,74 @@
       }
     }
   },
+  "mul1740.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "leave",
+          "day",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "inform": [
+          "choice",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "id",
+          "time"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "inform": [
+          "type",
+          "choice"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "name",
+          "phone"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "6": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "id"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "welcome": [],
+        "bye": []
+      }
+    }
+  },
   "pmul1352.json": {
     "0": {
       "train": {
@@ -106059,6 +110502,71 @@
         "inform": [
           "price"
         ]
+      }
+    }
+  },
+  "pmul3497.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "recommend": [
+          "address",
+          "area",
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "restaurant": {
+        "offerbook": []
+      },
+      "hotel": {
+        "inform": [
+          "name"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "choice",
+          "parking"
+        ]
+      }
+    },
+    "5": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "general": {
+        "bye": []
       }
     }
   },
@@ -108296,6 +112804,78 @@
       }
     }
   },
+  "pmul4620.json": {
+    "0": {
+      "attraction": {
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "inform": [
+          "type",
+          "choice"
+        ]
+      }
+    },
+    "2": {
+      "attraction": {
+        "inform": [
+          "price",
+          "name"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "inform": [
+          "postcode"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "train": {
+        "request": [
+          "day",
+          "leave"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "train": {
+        "inform": [
+          "arrive",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "7": {
+      "train": {
+        "inform": [
+          "price"
+        ]
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng1142.json": {
     "0": {
       "attraction": {
@@ -110197,6 +114777,84 @@
       }
     }
   },
+  "mul0049.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "phone"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "type",
+          "stars"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "inform": [
+          "type",
+          "area"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "nooffer": [
+          "food",
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "restaurant": {
+        "select": [
+          "price"
+        ],
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "taxi": {
+        "request": [
+          "arrive",
+          "departure"
+        ]
+      }
+    },
+    "7": {
+      "taxi": {
+        "inform": [
+          "departure",
+          "destination",
+          "car",
+          "phone",
+          "leave"
+        ]
+      }
+    },
+    "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "mul0517.json": {
     "0": {
       "train": {
@@ -111214,6 +115872,67 @@
     "6": {
       "general": {
         "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "mul1326.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": [
+          "food",
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "address",
+          "food"
+        ],
+        "offerbook": []
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "price",
+          "address"
+        ]
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "type"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "hotel": {
+        "inform": [
+          "internet",
+          "name",
+          "parking"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "6": {
+      "general": {
         "bye": []
       }
     }
@@ -113595,6 +118314,101 @@
       }
     }
   },
+  "mul0745.json": {
+    "0": {
+      "hotel": {
+        "inform": [
+          "type",
+          "choice"
+        ],
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "area",
+          "parking"
+        ],
+        "request": [
+          "stars",
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "select": [],
+        "inform": [
+          "choice",
+          "name",
+          "stars"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "train": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "destination"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "train": {
+        "request": [
+          "arrive"
+        ]
+      }
+    },
+    "6": {
+      "train": {
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "7": {
+      "train": {
+        "offerbooked": [
+          "reference",
+          "price"
+        ]
+      }
+    },
+    "8": {
+      "general": {
+        "welcome": [],
+        "reqmore": []
+      }
+    },
+    "9": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng0651.json": {
     "0": {
       "restaurant": {
@@ -114398,84 +119212,6 @@
     },
     "4": {
       "general": {
-        "bye": []
-      }
-    }
-  },
-  "mul1635.json": {
-    "0": {
-      "restaurant": {
-        "inform": [
-          "area",
-          "choice"
-        ],
-        "request": [
-          "food"
-        ]
-      }
-    },
-    "1": {
-      "restaurant": {
-        "inform": [
-          "choice"
-        ],
-        "request": [
-          "food"
-        ]
-      }
-    },
-    "2": {
-      "restaurant": {
-        "request": [
-          "people"
-        ]
-      }
-    },
-    "3": {
-      "train": {
-        "inform": [
-          "arrive",
-          "id",
-          "destination"
-        ],
-        "offerbook": []
-      }
-    },
-    "4": {
-      "train": {
-        "inform": [
-          "leave",
-          "price"
-        ],
-        "offerbook": []
-      }
-    },
-    "5": {},
-    "6": {
-      "restaurant": {
-        "inform": [
-          "food",
-          "phone",
-          "postcode",
-          "name"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "7": {
-      "train": {
-        "inform": [
-          "leave",
-          "id",
-          "price"
-        ]
-      }
-    },
-    "8": {
-      "general": {
-        "welcome": [],
         "bye": []
       }
     }
@@ -115299,6 +120035,104 @@
       }
     }
   },
+  "pmul2585.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "area",
+          "choice"
+        ],
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "recommend": [
+          "address",
+          "name",
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "attraction": {
+        "inform": [
+          "price",
+          "phone",
+          "postcode"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "select": [
+          "stars"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "inform": [
+          "stars"
+        ],
+        "offerbook": [
+          "name"
+        ]
+      }
+    },
+    "5": {
+      "general": {
+        "bye": []
+      }
+    },
+    "6": {
+      "taxi": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "7": {
+      "taxi": {
+        "inform": [
+          "departure",
+          "destination",
+          "car",
+          "leave"
+        ]
+      }
+    },
+    "8": {
+      "taxi": {
+        "inform": [
+          "phone"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "9": {
+      "taxi": {
+        "inform": [
+          "car"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "10": {
+      "general": {
+        "welcome": []
+      }
+    }
+  },
   "pmul3392.json": {
     "0": {},
     "1": {
@@ -115541,98 +120375,6 @@
       }
     },
     "11": {
-      "general": {
-        "bye": []
-      }
-    }
-  },
-  "pmul0874.json": {
-    "0": {
-      "restaurant": {
-        "request": [
-          "food"
-        ]
-      }
-    },
-    "1": {
-      "restaurant": {
-        "nooffer": [
-          "area",
-          "food"
-        ],
-        "request": [
-          "food",
-          "area"
-        ]
-      }
-    },
-    "2": {
-      "restaurant": {
-        "nooffer": [
-          "food"
-        ],
-        "request": [
-          "area"
-        ]
-      }
-    },
-    "3": {
-      "restaurant": {
-        "inform": [
-          "price",
-          "food",
-          "name",
-          "area"
-        ],
-        "offerbook": []
-      }
-    },
-    "4": {
-      "restaurant": {
-        "inform": [
-          "phone"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "5": {
-      "train": {
-        "request": [
-          "leave",
-          "day"
-        ]
-      }
-    },
-    "6": {
-      "train": {
-        "inform": [
-          "arrive",
-          "destination",
-          "day",
-          "id"
-        ],
-        "offerbook": []
-      }
-    },
-    "7": {
-      "train": {
-        "offerbooked": [
-          "price",
-          "reference"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "8": {
-      "general": {
-        "welcome": []
-      }
-    },
-    "9": {
       "general": {
         "bye": []
       }
@@ -116140,6 +120882,73 @@
     "8": {
       "general": {
         "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "pmul4022.json": {
+    "0": {
+      "hotel": {
+        "request": [
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "hotel": {
+        "nooffer": [],
+        "request": [
+          "price"
+        ]
+      }
+    },
+    "2": {
+      "hotel": {
+        "recommend": [
+          "name"
+        ],
+        "inform": [
+          "choice"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {},
+    "5": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "taxi": {
+        "inform": [
+          "destination",
+          "phone",
+          "departure",
+          "car"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "general": {
         "bye": []
       }
     }
@@ -116934,6 +121743,63 @@
       }
     },
     "8": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "mul0264.json": {
+    "0": {
+      "restaurant": {
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "recommend": [
+          "name",
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "inform": [
+          "name",
+          "phone"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "arrive",
+          "destination",
+          "leave",
+          "id",
+          "departure"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "price"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
       "general": {
         "bye": []
       }
@@ -119635,6 +124501,95 @@
       }
     }
   },
+  "pmul3145.json": {
+    "0": {
+      "restaurant": {
+        "select": [],
+        "inform": [
+          "name",
+          "area"
+        ]
+      }
+    },
+    "1": {
+      "restaurant": {
+        "request": [
+          "time"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "3": {
+      "hotel": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "area",
+          "price"
+        ]
+      }
+    },
+    "4": {
+      "hotel": {
+        "inform": [
+          "choice",
+          "price",
+          "area"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "restaurant": {
+        "inform": [
+          "food"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "hotel": {
+        "inform": [
+          "name"
+        ],
+        "offerbook": []
+      }
+    },
+    "7": {
+      "hotel": {
+        "inform": [
+          "internet"
+        ],
+        "offerbook": []
+      }
+    },
+    "8": {
+      "hotel": {
+        "inform": [
+          "postcode",
+          "area"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "9": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "pmul4780.json": {
     "0": {},
     "1": {
@@ -121453,6 +126408,54 @@
     "7": {
       "general": {
         "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "pmul1109.json": {
+    "0": {
+      "train": {
+        "request": [
+          "leave",
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "day"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "offerbook": []
+      }
+    },
+    "4": {
+      "attraction": {
+        "inform": [
+          "address",
+          "name",
+          "price",
+          "area"
+        ]
+      }
+    },
+    "5": {
+      "general": {
         "bye": []
       }
     }
@@ -123541,6 +128544,190 @@
       }
     }
   },
+  "pmul3907.json": {
+    "0": {},
+    "1": {
+      "restaurant": {
+        "offerbook": [],
+        "request": [
+          "people",
+          "time"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "offerbook": [
+          "people",
+          "name",
+          "time",
+          "day"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "train": {
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "6": {
+      "train": {
+        "inform": [
+          "leave",
+          "id"
+        ]
+      }
+    },
+    "7": {
+      "train": {
+        "inform": [
+          "day",
+          "id",
+          "arrive"
+        ],
+        "offerbook": []
+      }
+    },
+    "8": {
+      "train": {
+        "inform": [
+          "leave"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "9": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
+  "pmul1256.json": {
+    "0": {
+      "attraction": {
+        "request": [
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ]
+      }
+    },
+    "2": {
+      "attraction": {
+        "recommend": [],
+        "inform": [
+          "choice",
+          "type"
+        ]
+      }
+    },
+    "3": {
+      "attraction": {
+        "nooffer": [
+          "type",
+          "area"
+        ]
+      }
+    },
+    "4": {
+      "attraction": {
+        "recommend": [
+          "name"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "5": {
+      "attraction": {
+        "inform": [
+          "name",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "7": {
+      "train": {
+        "inform": [
+          "departure",
+          "choice",
+          "destination"
+        ],
+        "request": [
+          "day",
+          "leave"
+        ]
+      }
+    },
+    "8": {
+      "train": {
+        "inform": [
+          "id",
+          "leave",
+          "arrive"
+        ]
+      }
+    },
+    "9": {
+      "train": {
+        "offerbook": []
+      }
+    },
+    "10": {
+      "train": {
+        "offerbooked": [
+          "price",
+          "reference"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "11": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "sng0482.json": {
     "0": {
       "restaurant": {
@@ -123735,87 +128922,6 @@
     },
     "2": {
       "general": {
-        "bye": []
-      }
-    }
-  },
-  "pmul0692.json": {
-    "0": {
-      "train": {
-        "request": [
-          "departure"
-        ]
-      }
-    },
-    "1": {
-      "train": {
-        "inform": [
-          "departure",
-          "id",
-          "destination",
-          "leave",
-          "arrive"
-        ],
-        "offerbook": []
-      }
-    },
-    "2": {
-      "train": {
-        "inform": [
-          "arrive"
-        ],
-        "select": []
-      }
-    },
-    "3": {
-      "train": {
-        "offerbooked": [
-          "reference",
-          "price"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "4": {
-      "restaurant": {
-        "inform": [
-          "choice"
-        ]
-      }
-    },
-    "5": {
-      "restaurant": {
-        "inform": [
-          "name",
-          "area",
-          "price"
-        ],
-        "offerbook": []
-      }
-    },
-    "6": {
-      "restaurant": {
-        "inform": [
-          "food"
-        ]
-      }
-    },
-    "7": {
-      "restaurant": {
-        "inform": [
-          "phone",
-          "postcode"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "8": {
-      "general": {
-        "welcome": [],
         "bye": []
       }
     }
@@ -126386,6 +131492,69 @@
       }
     }
   },
+  "mul1661.json": {
+    "0": {
+      "train": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "destination"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "leave",
+          "departure",
+          "arrive",
+          "choice",
+          "destination"
+        ],
+        "select": [],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "inform": [
+          "departure",
+          "id"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "offerbook": [],
+        "request": [
+          "people"
+        ]
+      }
+    },
+    "6": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "mul2099.json": {
     "0": {
       "train": {
@@ -127202,76 +132371,6 @@
       }
     }
   },
-  "pmul0522.json": {
-    "0": {
-      "restaurant": {
-        "request": [
-          "food"
-        ]
-      }
-    },
-    "1": {
-      "restaurant": {
-        "recommend": [
-          "food",
-          "name"
-        ],
-        "offerbook": []
-      }
-    },
-    "2": {
-      "restaurant": {
-        "offerbooked": [
-          "reference"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "3": {
-      "train": {
-        "request": [
-          "leave",
-          "departure"
-        ]
-      }
-    },
-    "4": {
-      "train": {
-        "offerbook": [
-          "id",
-          "leave"
-        ]
-      }
-    },
-    "5": {
-      "train": {
-        "inform": [
-          "time"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "6": {
-      "train": {
-        "inform": [
-          "price"
-        ]
-      },
-      "general": {
-        "reqmore": []
-      }
-    },
-    "7": {
-      "general": {
-        "welcome": [],
-        "bye": []
-      }
-    }
-  },
   "mul0828.json": {
     "0": {
       "restaurant": {
@@ -127995,6 +133094,79 @@
     "8": {
       "general": {
         "welcome": [],
+        "bye": []
+      }
+    }
+  },
+  "pmul4259.json": {
+    "0": {
+      "restaurant": {
+        "nooffer": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "1": {
+      "restaurant": {
+        "inform": [
+          "choice"
+        ],
+        "request": [
+          "food"
+        ]
+      }
+    },
+    "2": {
+      "restaurant": {
+        "select": [
+          "name",
+          "choice"
+        ]
+      }
+    },
+    "3": {
+      "restaurant": {
+        "offerbooked": [
+          "reference"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "request": [
+          "leave",
+          "day",
+          "arrive"
+        ]
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "id",
+          "destination",
+          "arrive",
+          "leave"
+        ],
+        "offerbook": []
+      }
+    },
+    "6": {
+      "train": {
+        "offerbook": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "7": {
+      "general": {
+        "bye": []
+      }
+    },
+    "8": {
+      "general": {
         "bye": []
       }
     }
@@ -128938,6 +134110,78 @@
       }
     }
   },
+  "pmul0713.json": {
+    "0": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "1": {
+      "train": {
+        "request": [
+          "leave"
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "inform": [
+          "leave",
+          "id"
+        ],
+        "offerbook": []
+      }
+    },
+    "3": {
+      "train": {
+        "offerbooked": [
+          "id",
+          "people",
+          "reference",
+          "price"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "4": {
+      "restaurant": {
+        "select": [
+          "food"
+        ],
+        "inform": [
+          "choice"
+        ]
+      }
+    },
+    "5": {
+      "restaurant": {
+        "recommend": [
+          "name"
+        ],
+        "offerbook": []
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "6": {
+      "restaurant": {
+        "inform": [
+          "address"
+        ]
+      }
+    },
+    "7": {
+      "general": {
+        "bye": []
+      }
+    }
+  },
   "pmul4001.json": {
     "0": {},
     "1": {},
@@ -129162,6 +134406,64 @@
         "bye": []
       }
     }
+  },
+  "mul1899.json": {
+    "0": {
+      "attraction": {
+        "inform": [
+          "area",
+          "name",
+          "type"
+        ]
+      }
+    },
+    "1": {
+      "attraction": {
+        "inform": [
+          "phone",
+          "address"
+        ]
+      },
+      "general": {
+        "reqmore": []
+      }
+    },
+    "2": {
+      "train": {
+        "request": [
+          "destination",
+          "departure"
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "request": [
+          "leave",
+          "arrive"
+        ]
+      }
+    },
+    "4": {
+      "train": {
+        "inform": [
+          "id",
+          "arrive",
+          "destination"
+        ],
+        "offerbook": []
+      }
+    },
+    "5": {
+      "train": {
+        "inform": [
+          "arrive",
+          "price",
+          "leave"
+        ]
+      }
+    },
+    "6": {}
   },
   "sng02207.json": {
     "0": {
